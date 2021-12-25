@@ -105,26 +105,6 @@
       </tags>
   </entry>
   <entry>
-    <title>极限1</title>
-    <url>/2021/09/13/%E6%9E%81%E9%99%901/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 这道题有点难受，最后一步诱导性极强，我(本人)每一次第一反应都tm是0！</p>
-<span id="more"></span>
-<p>$$<br>\text { 求 } \lim _{x \rightarrow 0}\left(\frac{(1+x)^{\frac{1} {x} } } {(1+\sin x)^{\frac{1} {\sin x} } }\right)^{\frac{1} {x^{3} } }<br>$$<br>这道题我认为诱导性很强（对我），题本身不难，但每次快写出来的时候就会被各种各样的问题卡住了。要不是cosx没有及时化简掉；要不就是在最后一步，最简单的等价无穷小代换我竟然忘掉了，不是忘掉了某个公式，而是压根就没有想起来，神奇！</p>
-<h3 id="求解过程"><a href="#求解过程" class="headerlink" title="求解过程"></a>求解过程</h3><p><img src="https://cdn.mathpix.com/snip/images/Nu9orVKInkJHQp1_y4EaBqBE5EW9-7-lT3ISsMEaSTE.original.fullsize.png"></p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在倒数第二步，也就是”三项分开解”上一行，每次算到这里我都会”失忆“，什么泰勒公式呀、等价无穷小替换呀、洛必达呀都选择性失忆了，只剩下个鸡蛋”0“了!</p>
-<p>~好吧，从根本上（解题方式上）我的感性思维占的更多一点吧，导致每每造成这种不是失误的失误。我想，每一步都应该规范在数学知识的框架上！</p>
-<p><em>不是吗？</em></p>
-<hr>
-<p>请看这里：<a href="https://www.bilibili.com/video/BV1Qs411J7QQ?p=30&spm_id_from=pageDriver">有个好东西！</a></p>
-]]></content>
-      <categories>
-        <category>极限</category>
-      </categories>
-      <tags>
-        <tag>极限</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>很简单的一道题</title>
     <url>/2021/09/20/%E5%BE%88%E7%AE%80%E5%8D%95%E7%9A%84%E4%B8%80%E9%81%93%E9%A2%98/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>预定31号题！</p>
@@ -155,6 +135,26 @@
       </categories>
       <tags>
         <tag>第二积分中值定理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>极限1</title>
+    <url>/2021/09/13/%E6%9E%81%E9%99%901/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 这道题有点难受，最后一步诱导性极强，我(本人)每一次第一反应都tm是0！</p>
+<span id="more"></span>
+<p>$$<br>\text { 求 } \lim _{x \rightarrow 0}\left(\frac{(1+x)^{\frac{1} {x} } } {(1+\sin x)^{\frac{1} {\sin x} } }\right)^{\frac{1} {x^{3} } }<br>$$<br>这道题我认为诱导性很强（对我），题本身不难，但每次快写出来的时候就会被各种各样的问题卡住了。要不是cosx没有及时化简掉；要不就是在最后一步，最简单的等价无穷小代换我竟然忘掉了，不是忘掉了某个公式，而是压根就没有想起来，神奇！</p>
+<h3 id="求解过程"><a href="#求解过程" class="headerlink" title="求解过程"></a>求解过程</h3><p><img src="https://cdn.mathpix.com/snip/images/Nu9orVKInkJHQp1_y4EaBqBE5EW9-7-lT3ISsMEaSTE.original.fullsize.png"></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在倒数第二步，也就是”三项分开解”上一行，每次算到这里我都会”失忆“，什么泰勒公式呀、等价无穷小替换呀、洛必达呀都选择性失忆了，只剩下个鸡蛋”0“了!</p>
+<p>~好吧，从根本上（解题方式上）我的感性思维占的更多一点吧，导致每每造成这种不是失误的失误。我想，每一步都应该规范在数学知识的框架上！</p>
+<p><em>不是吗？</em></p>
+<hr>
+<p>请看这里：<a href="https://www.bilibili.com/video/BV1Qs411J7QQ?p=30&spm_id_from=pageDriver">有个好东西！</a></p>
+]]></content>
+      <categories>
+        <category>极限</category>
+      </categories>
+      <tags>
+        <tag>极限</tag>
       </tags>
   </entry>
 </search>
