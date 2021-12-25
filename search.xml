@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>努力学习</title>
+    <url>/2021/09/23/%E5%8A%AA%E5%8A%9B%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>想要把平时感兴趣但没有深入了解的数学知识研究透彻，要把这些”兴趣”，或者说学习中的疑难困惑解决清楚，因此特发此篇，以来总结。</p>
+<span id="more"></span>
+
+<blockquote>
+<p>伯努利数</p>
+</blockquote>
+<blockquote>
+<p>p级数求和</p>
+</blockquote>
+<blockquote>
+<p>反常积分求解</p>
+</blockquote>
+<blockquote>
+<p>留数定理深入学习</p>
+</blockquote>
+<blockquote>
+<p>拉普拉斯变换</p>
+</blockquote>
+<blockquote>
+<p>傅里叶变换</p>
+</blockquote>
+<blockquote>
+<p>lebesgue积分深入</p>
+</blockquote>
+<p>…..</p>
+<hr>
+]]></content>
+      <tags>
+        <tag>兴趣</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/12/24/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>很叼的猜拳游戏</title>
+    <url>/2021/10/08/%E5%BE%88%E5%8F%BC%E7%9A%84%E7%8C%9C%E6%8B%B3%E6%B8%B8%E6%88%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://cdn.mathpix.com/snip/images/pYX6MuIpPsS7tB3CpbeeuHjI_hrr9M5UdpfYzmbGKdA.original.fullsize.png"></p>
+<span id="more"></span>
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="built_in">input</span>(<span class="string">&quot;游戏规则:输入1代表出&lt;拳头&gt; 输入2代表出&lt;剪刀&gt; 输入3代表出&lt;布&gt;&quot;</span></span><br><span class="line">      <span class="string">&quot;\n       按回车继续......&quot;</span>)</span><br><span class="line"><span class="built_in">input</span>(<span class="string">&quot;胜负关系为:1&gt;2 2&gt;3 3&gt;1\n按回车开始游戏......&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;----------------------------------------------------------------------&quot;</span>)</span><br><span class="line">number = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入比赛回合:&quot;</span>))</span><br><span class="line">i = <span class="number">1</span></span><br><span class="line">win = <span class="number">0</span></span><br><span class="line">lose = <span class="number">0</span></span><br><span class="line">noun = <span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> i &lt;= number:</span><br><span class="line">    user = <span class="built_in">input</span>(<span class="string">&quot;请输入需要出的拳:石头(1)/剪刀(2)/布(3):&quot;</span>)</span><br><span class="line">    user = <span class="built_in">eval</span>(user)</span><br><span class="line">    computer = random.randint(<span class="number">1</span>, <span class="number">300</span>)  <span class="comment"># 随机产生1-300之间的随机整数</span></span><br><span class="line">    h = number - i</span><br><span class="line">    <span class="keyword">if</span> user == <span class="number">1</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 你出石头:%d&quot;</span> % user)</span><br><span class="line">    <span class="keyword">elif</span> user == <span class="number">2</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 你出剪刀:%d&quot;</span> % user)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 你出布: %d&quot;</span> % user)</span><br><span class="line">    <span class="keyword">if</span> (computer &gt;= <span class="number">1</span>) <span class="keyword">and</span> computer &lt;= <span class="number">100</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;电脑出石头:1 --(%d)&quot;</span> % computer)</span><br><span class="line">    <span class="keyword">elif</span> (computer &gt; <span class="number">100</span>) <span class="keyword">and</span> computer &lt;= <span class="number">200</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;电脑出剪刀:2 --(%d)&quot;</span> % computer)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 电脑出布:3 --(%d)&quot;</span> % computer)</span><br><span class="line">    <span class="comment"># print(&quot;-----规则:1&gt;2 2&gt;3 3&gt;1-----&quot;)</span></span><br><span class="line">    <span class="keyword">if</span> (user == <span class="number">1</span> <span class="keyword">and</span> ((computer &gt;= <span class="number">1</span>) <span class="keyword">and</span> computer &lt;= <span class="number">100</span>)) <span class="keyword">or</span> (</span><br><span class="line">            user == <span class="number">2</span> <span class="keyword">and</span> ((computer &gt; <span class="number">100</span>) <span class="keyword">and</span> computer &lt;= <span class="number">200</span>)) <span class="keyword">or</span> (</span><br><span class="line">            user == <span class="number">3</span> <span class="keyword">and</span> ((computer &gt; <span class="number">200</span>) <span class="keyword">and</span> computer &lt;= <span class="number">300</span>)):</span><br><span class="line">        noun = <span class="number">1</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;本回合平局!无胜负关系，重新再来!&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> user == <span class="number">1</span> <span class="keyword">and</span> (computer &gt; <span class="number">100</span>) <span class="keyword">and</span> computer &lt;= <span class="number">200</span> <span class="keyword">or</span> user == <span class="number">2</span> <span class="keyword">and</span> (</span><br><span class="line">            computer &gt; <span class="number">200</span>) <span class="keyword">and</span> computer &lt;= <span class="number">300</span> <span class="keyword">or</span> user == <span class="number">3</span> <span class="keyword">and</span> (computer &gt;= <span class="number">1</span>) <span class="keyword">and</span> computer &lt;= <span class="number">100</span>:</span><br><span class="line">        noun = <span class="number">0</span></span><br><span class="line">        win += <span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> h == <span class="number">0</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;本回合你赢了!回合结束,正在计算胜负关系......&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">if</span> win == <span class="built_in">int</span>(number / <span class="number">2</span> + <span class="number">1</span>):</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&quot;本回合你赢了!回合结束,正在计算胜负关系......&quot;</span>)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">f&quot;本回合你赢了!但别太高兴，你只赢了<span class="subst">&#123;win&#125;</span>个回合-----------------------还剩<span class="subst">&#123;h&#125;</span>个回合!&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> win == <span class="built_in">int</span>(number / <span class="number">2</span> + <span class="number">1</span>):</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;----------------------------------------------------------------------&quot;</span>)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;好吧，你赢了，<span class="subst">&#123;number&#125;</span>局游戏赢了<span class="subst">&#123;win&#125;</span>局!&quot;</span>)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;恭喜你!成功赢了电脑!牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛!&quot;</span>)</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        noun = <span class="number">0</span></span><br><span class="line">        lose += <span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> h == <span class="number">0</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;本回合你输了!回合结束，正在计算胜负关系......&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;本回合你输了!菜狗，电脑都赢不了，你已经输了<span class="subst">&#123;lose&#125;</span>回合了-----------------------还剩<span class="subst">&#123;h&#125;</span>个回合&quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;----------------------------------------------------------------------&quot;</span>)</span><br><span class="line">    <span class="comment"># if (i == number) and (win &gt;= 0 and win &lt; number/2):</span></span><br><span class="line">    <span class="comment">#     print(f&quot;&#123;number&#125;次比赛你只赢了&#123;win&#125;个回合，你输了!&quot;)</span></span><br><span class="line">    <span class="keyword">if</span> lose == <span class="built_in">int</span>(number / <span class="number">2</span> + <span class="number">1</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;很遗憾，你输了!&quot;</span>)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;number&#125;</span>个回合你已经输了<span class="subst">&#123;lose&#125;</span>个回合了，我奶奶玩都比你强!&quot;</span>)</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">elif</span> (i == number) <span class="keyword">and</span> win == number / <span class="number">2</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;number&#125;</span>个回合你只赢了<span class="subst">&#123;win&#125;</span>个回合:平局!&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> noun == <span class="number">1</span>:</span><br><span class="line">        i = i</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        i += <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>小游戏</category>
+      </categories>
+      <tags>
+        <tag>while逻辑运算符</tag>
+        <tag>if逻辑运算符</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>反证法中“矛盾导出”的几种类型总结</title>
+    <url>/2021/09/14/%E5%8F%8D%E8%AF%81%E6%B3%95%E4%B8%AD%E2%80%9C%E7%9F%9B%E7%9B%BE%E5%AF%BC%E5%87%BA%E2%80%9D%E7%9A%84%E5%87%A0%E7%A7%8D%E7%B1%BB%E5%9E%8B%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>说来汗颜！作为数学专业的学生，要不是做题我还发现不了，我连反证法的一些基本概念都不清楚（也可能是忘了）。总之，就是离谱，花了一些时间，终于把知识找了回来，也copy了一些非常重要的知识点——反证法中“矛盾导出”的几种类型</p>
+<span id="more"></span>
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>反证法是一种由假推真的证明方法，其实质是运用“正难则反、以退为进”的策略，从否定结论入手，先作出与求证结论相反的假设，然后经过一系列严谨、合乎逻辑的推理论证，导出矛盾结论，最后由矛盾断定假设不成立，肯定原结论成立.在用反证法推出矛盾的推导过程中，导出的矛盾有如下几种类型：与已知条件矛盾;与已知的公理、定义、定理、公式矛盾;与假设矛盾;自相矛盾.</p>
+<blockquote>
+<p>类型一：导出与公式定理的矛盾</p>
+</blockquote>
+<p>与公式定理矛盾即在运用反证法求证数学问题时，经过一番逻辑推理后，所推导出的<br>结论与已知的数学性质、公式、定理、法则等相矛盾，从而得出假设错误，原结论正确.</p>
+<blockquote>
+<p>类型二：导出与已知条件的矛盾</p>
+</blockquote>
+<p>与已知条件矛盾即在运用反证法求证数学问题时，所推导出的结论与题设已知条件相矛盾，进而断定假设不真，原求证结论成立. </p>
+<blockquote>
+<p>类型三：导出与自身假设的矛盾</p>
+</blockquote>
+<p>与自身假设矛盾即在运用反证法时，经过逻辑推理后，所推导出的结论与假设相互矛盾，由此否定假设，肯定原结论成立，</p>
+<blockquote>
+<p>类型四：导出两个结论自相矛盾</p>
+</blockquote>
+<p>两个结论自相矛盾即在运用反证法证明时，经过一系列严密的逻辑推理后，所推导出的两个结论自相矛盾，从而有效证明原命题的正确性.</p>
+<h2 id="一道题"><a href="#一道题" class="headerlink" title="一道题"></a>一道题</h2><p><img src="https://i.loli.net/2021/09/14/uWsm5S2oEV97HRr.jpg" alt="QQ图片20210914225548.jpg"><br>很明显，这是类型四的矛盾！</p>
+]]></content>
+      <categories>
+        <category>总结</category>
+      </categories>
+      <tags>
+        <tag>反证法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>极限1</title>
+    <url>/2021/09/13/%E6%9E%81%E9%99%901/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 这道题有点难受，最后一步诱导性极强，我(本人)每一次第一反应都tm是0！</p>
+<span id="more"></span>
+<p>$$<br>\text { 求 } \lim _{x \rightarrow 0}\left(\frac{(1+x)^{\frac{1} {x} } } {(1+\sin x)^{\frac{1} {\sin x} } }\right)^{\frac{1} {x^{3} } }<br>$$<br>这道题我认为诱导性很强（对我），题本身不难，但每次快写出来的时候就会被各种各样的问题卡住了。要不是cosx没有及时化简掉；要不就是在最后一步，最简单的等价无穷小代换我竟然忘掉了，不是忘掉了某个公式，而是压根就没有想起来，神奇！</p>
+<h3 id="求解过程"><a href="#求解过程" class="headerlink" title="求解过程"></a>求解过程</h3><p><img src="https://cdn.mathpix.com/snip/images/Nu9orVKInkJHQp1_y4EaBqBE5EW9-7-lT3ISsMEaSTE.original.fullsize.png"></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在倒数第二步，也就是”三项分开解”上一行，每次算到这里我都会”失忆“，什么泰勒公式呀、等价无穷小替换呀、洛必达呀都选择性失忆了，只剩下个鸡蛋”0“了!</p>
+<p>~好吧，从根本上（解题方式上）我的感性思维占的更多一点吧，导致每每造成这种不是失误的失误。我想，每一步都应该规范在数学知识的框架上！</p>
+<p><em>不是吗？</em></p>
+<hr>
+<p>请看这里：<a href="https://www.bilibili.com/video/BV1Qs411J7QQ?p=30&spm_id_from=pageDriver">有个好东西！</a></p>
+]]></content>
+      <categories>
+        <category>极限</category>
+      </categories>
+      <tags>
+        <tag>极限</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>很简单的一道题</title>
+    <url>/2021/09/20/%E5%BE%88%E7%AE%80%E5%8D%95%E7%9A%84%E4%B8%80%E9%81%93%E9%A2%98/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>预定31号题！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第二积分中值定理</title>
+    <url>/2021/12/22/%E7%AC%AC%E4%BA%8C%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>定理、证明、例题————复习</p>
+<p>来源于网络！！！</p>
+<span id="more"></span>
+
+<h2 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h2><p>设 $f(x)$ 在 $[a, b]$ 上可积， $g(x)$ 在 $[a, b]$ 上单调，则存在 $\xi \in[a, b]$ ，使得<br>$$<br>\int_{a}^{b} f(x) g(x) d x=g(a) \int_{a}^{\xi} f(x) d x+g(b) \int_{\xi}^{b} f(x) d x .<br>$$<br>这个定理的推导比较复杂，牵扯到积分上限函数: $\varphi(x)=\int f(t) d t$ 。以下用 $\int_{a}^{b} f(x) d x$ 表示从 $\mathrm{a}$ 到 $\mathrm{b}$ 的定积分。 首先需要证明，若函数 $f(x)$ 在 $[a, b]$ 内可积分，则 $\Phi(x)$ 在此区间内为一连续函数。<br>证明: 设 $F(x)=\int_{a}^{x} f(t) d t$, 则 $\int_{a}^{b} f(x) g(x) d x=\int_{a}^{b} g(x) d F(x)=\left.g(x) F(x)\right|<em>{a} ^{b}-\int</em>{a}^{b} F(x) g^{\prime}(x) d x$ $=g(b) \int_{a}^{b} f(x) d x-\int_{a}^{b} F(x) g^{\prime}(x) d x,\left(F(x)=\int_{a}^{x} f(t) d t\right) .$<br>因 $g^{\prime}(x)$ 在 $[a, b]$ 上不变号，则由积分第一中值定理知，在 $[a, b]$ 上至少存在一点 $\xi ，$ 使得 $\int_{a}^{b} F(x) g^{\prime}(x) d x=F(\xi) \int_{a}^{b} g^{\prime}(x) d x=F(\xi)[g(b)-g(a)] .$</p>
+<p>于是，有<br>$$<br>\begin{gathered}<br>\left.\int_{a}^{b} f(x) g(x) d x=g(b) \int_{a}^{b} f(x) d x-[g(b)]-g(a)\right] F(\xi) \<br>=g(b) \int_{a}^{b} f(x) d x-[g(b)-g(a)] \int_{a}^{\xi} f(x) d x \<br>=g(b)\left[\int_{a}^{b} f(x) d x-\int_{a}^{\xi} f(x) d x\right]+g(a) \int_{a}^{\xi} f(x) d x \<br>=g(b) \int_{\xi}^{b} f(x) d x+g(a) \int_{a}^{\xi} f(x) d x, \<br>\text { 即 } \int_{a}^{b} f(x) g(x) d x=g(a) \int_{a}^{\xi} f(x) d x+g(b) \int_{\xi}^{b} f(x) d x, \text { 得证。 }<br>\end{gathered}<br>$$</p>
+<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><ol>
+<li><p>定理的直接应用<br>例1. 设 $f(x)$ 在 $[a, b]$ 上可积,$g(x)$ 在 $[a, b]$ 上单调递增且非负,在 $a, b$ 处连续,那么在 $[a, b]$ 上存在 $\xi$,使<br>$$<br>\int_{a}^{b} f(x) g(x) d x=f(b) \int_{\xi}^{b} f(x) d x .<br>$$<br>$$<br>\begin{aligned}<br>&amp;\text { 证 明 : 令 } \mathrm{x}=\mathrm{b}-\mathrm{t}, g(b-t)=h(t) \int_{0}^{b-a} f(b-t) h(t) d(t) \text {, 因为 } \mathrm{h}(\mathrm{t}) \text { 非负且单调递减 }(0&lt;\mathrm{t}&lt;\mathrm{b}-\mathrm{a}) \text { 利用公式有 } \<br>&amp;\int_{0}^{b-a} f(b-t) h(t) d t=h(0) \int_{0}^{\gamma} f(b-t) d t=g(b) \int_{b-\gamma}^{b} f(x) d x(0&lt;\gamma&lt;b-a) \text {, 而 } \mathrm{a}&lt;\xi&lt;\mathrm{b}-\gamma \text { ，即 } \<br>&amp;\int_{a}^{b} f(x) g(x) d x=f(b) \int_{\xi}^{b} f(x) d x .<br>\end{aligned}<br>$$</p>
+</li>
+<li><p>积分第二中值定理在证明不等式中的应用<br>例2. 证明 $x&gt;0$ 时， $\left|\int_{x}^{x+e} \sin t^{2} d t\right| \leq \frac{1}{x}$.<br>证明:取 $u=t^{2}, t=\sqrt{u}, d t=\frac{d u}{2 \sqrt{u}}$, 由积分中值定理和它的推论可得:</p>
+</li>
+</ol>
+<p>$$<br>\left|\int_{x}^{x+\tau} \sin t^{2} d t\right|=\left|\int_{x}^{x+\tau} \frac{\sin u}{2 \sqrt{u}} d u\right|=\frac{1}{2 \sqrt{x^{2}}} \int_{x^{2}}^{\gamma} \sin u d u=\frac{1}{2 x}\left(\cos x^{2}-\cos \gamma\right) \leq \frac{2}{2 x}=\frac{1}{x} .<br>$$</p>
+<ol start="3">
+<li>积分中值定理在极限中的应用<br>例3.证明极限 $\lim <em>{n \rightarrow \infty} \frac{x^{n}}{1+x} d x=0$.<br>证明: 由积分中值定理和它的推论可得:令 $f(x)=\frac{1}{1+x}, g(x)=x^{n}$,<br>令可知 $g(x)$ 在 $[0,1]$ 上连续,而且不变号。所以存在 $\xi$ 使得 $\int</em>{0}^{1} f(x) g(x) d x=f(\xi) \int_{0}^{1} g(x) d x$, 因此有以下式子<br>$0 \leq \int_{0}^{1} \frac{x^{n}}{1+x} d x=\frac{1}{1+\xi} \int_{0}^{1} x^{n} d x=\frac{1}{(n+1)(1+\xi)} \leq \frac{1}{n+1} \rightarrow 0 \rightarrow \lim <em>{n \rightarrow \infty} \int</em>{0}^{1} \frac{x^{n}}{1+x} d x=0$</li>
+</ol>
+]]></content>
+      <categories>
+        <category>积分</category>
+      </categories>
+      <tags>
+        <tag>第二积分中值定理</tag>
+      </tags>
+  </entry>
+</search>
