@@ -22,25 +22,30 @@
   <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"sgnxotsmicf.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="单调函数必有反函数!">
-<meta property="og:type" content="website">
-<meta property="og:title" content="西工院数学第一">
-<meta property="og:url" content="http://sgnxotsmicf.com/tags/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/index.html">
+<meta name="description" content="降阶公式 \begin{vmatrix}{\lambda}{E_{m}-AB}\end{vmatrix}&#x3D;{\lambda}^{m-n}\begin{vmatrix}{\lambda}{E_{n}}{-BA}\end{vmatrix}其中$E_{m}{}$ 、 $E_{n}$分别为$m阶、n阶$单位阵">
+<meta property="og:type" content="article">
+<meta property="og:title" content="降阶公式与矩阵秩的性质">
+<meta property="og:url" content="http://sgnxotsmicf.com/2021/12/26/%E9%99%8D%E9%98%B6%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%9F%A9%E9%98%B5%E7%A7%A9%E7%9A%84%E5%85%AC%E5%BC%8F/index.html">
 <meta property="og:site_name" content="西工院数学第一">
-<meta property="og:description" content="单调函数必有反函数!">
+<meta property="og:description" content="降阶公式 \begin{vmatrix}{\lambda}{E_{m}-AB}\end{vmatrix}&#x3D;{\lambda}^{m-n}\begin{vmatrix}{\lambda}{E_{n}}{-BA}\end{vmatrix}其中$E_{m}{}$ 、 $E_{n}$分别为$m阶、n阶$单位阵">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-12-26T08:26:44.000Z">
+<meta property="article:modified_time" content="2021-12-26T15:52:56.639Z">
 <meta property="article:author" content="sgnxOtsmiCf">
+<meta property="article:tag" content="公式">
+<meta property="article:tag" content="矩阵">
+<meta property="article:tag" content="秩">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://sgnxotsmicf.com/tags/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/">
+<link rel="canonical" href="http://sgnxotsmicf.com/2021/12/26/%E9%99%8D%E9%98%B6%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%9F%A9%E9%98%B5%E7%A7%A9%E7%9A%84%E5%85%AC%E5%BC%8F/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"tags/线性规划/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://sgnxotsmicf.com/2021/12/26/%E9%99%8D%E9%98%B6%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%9F%A9%E9%98%B5%E7%A7%A9%E7%9A%84%E5%85%AC%E5%BC%8F/","path":"2021/12/26/降阶公式与矩阵秩的公式/","title":"降阶公式与矩阵秩的性质"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>标签: 线性规划 | 西工院数学第一</title>
+<title>降阶公式与矩阵秩的性质 | 西工院数学第一</title>
   
 
 
@@ -137,7 +142,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -150,6 +155,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%99%8D%E9%98%B6%E5%85%AC%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">降阶公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5%E7%A7%A9%E7%9A%84%E6%80%A7%E8%B4%A8"><span class="nav-number">2.</span> <span class="nav-text">矩阵秩的性质</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -231,50 +237,166 @@
 </noscript>
 
 
-    <div class="main-inner tag posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">线性规划
-          <small>标签</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://sgnxotsmicf.com/2021/12/26/%E9%99%8D%E9%98%B6%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%9F%A9%E9%98%B5%E7%A7%A9%E7%9A%84%E5%85%AC%E5%BC%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/04eb33531db540af601e72c483f659b1.jpg">
+      <meta itemprop="name" content="sgnxOtsmiCf">
+      <meta itemprop="description" content="单调函数必有反函数!">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="西工院数学第一">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          降阶公式与矩阵秩的性质
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+
+      <time title="创建时间：2021-12-26 16:26:44 / 修改时间：23:52:56" itemprop="dateCreated datePublished" datetime="2021-12-26T16:26:44+08:00">2021-12-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/" itemprop="url" rel="index"><span itemprop="name">高等代数</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>649</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h3 id="降阶公式"><a href="#降阶公式" class="headerlink" title="降阶公式"></a>降阶公式</h3><script type="math/tex; mode=display">
+\begin{vmatrix}{\lambda}{E_{m}-AB}\end{vmatrix}={\lambda}^{m-n}\begin{vmatrix}{\lambda}{E_{n}}{-BA}\end{vmatrix}</script><p>其中$E_{m}{}$ 、 $E_{n}$分别为$m阶、n阶$单位阵</p>
+<span id="more"></span>
+<h3 id="矩阵秩的性质"><a href="#矩阵秩的性质" class="headerlink" title="矩阵秩的性质"></a>矩阵秩的性质</h3><ol>
+<li><p>$0{\le}{R(A)}{\le}{min}${$m,n$}</p>
+</li>
+<li><p>$\begin{cases}0,k=0 \\ {R(A)},k{\not=0}<br> \end{cases}$​</p>
+</li>
+<li><p>$R(A_1){\le}{R(A)}$   其中，$A_1是A的子矩阵$</p>
+</li>
+<li><p>$R(A^T)=R(A)$  其中，$A^T是A的转置$</p>
+</li>
+<li><p>$A{\rightarrow}^{初等变换}{\rightarrow}B{\Rightarrow}{R(A)=R(B)}$</p>
+</li>
+<li><p>$R\begin{pmatrix}A&amp;0 \\ 0&amp;B\end{pmatrix}$记$R(A)=r_1{\quad} R(B)=r_2$</p>
+<p>= $r_1+r_2$</p>
+</li>
+<li><p>$R(A,B)\le{R(A)+R(B)}$</p>
+</li>
+<li><p>$R(A+B)\le{R(A)+R(B)}$</p>
+</li>
+<li><p>$R(AB)\le{min\{ R\big(A),R\big(B)\}}$</p>
+</li>
+<li><p>$\cal<strong>重点</strong>:$</p>
+<p>设$A\in{F^{m\times{n}}},B\in{F^{m\times{n}}}$</p>
+<p>$R(A)+R(B)-n\le{R\big(AB)}\le{min\{R(A),R(B)\}}$</p>
+<p>特别地，若$AB=0$,则</p>
+<p>$R(A)+R(B)\le{n}$</p>
+</li>
+</ol>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-12-25T23:26:55+08:00"
-              content="2021-12-25">
-          12-25
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/12/25/%E5%8D%95%E7%BA%AF%E6%80%A7%E8%A1%A8/" itemprop="url">
-            <span itemprop="name">单纯性表</span>
-          </a>
-      </div>
+    <footer class="post-footer">
+          
 
-      
-    </header>
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>sgnxOtsmiCf
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://sgnxotsmicf.com/2021/12/26/%E9%99%8D%E9%98%B6%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%9F%A9%E9%98%B5%E7%A7%A9%E7%9A%84%E5%85%AC%E5%BC%8F/" title="降阶公式与矩阵秩的性质">http://sgnxotsmicf.com/2021/12/26/降阶公式与矩阵秩的公式/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%85%AC%E5%BC%8F/" rel="tag"> <i class="fa fa-tag"></i> 公式</a>
+              <a href="/tags/%E7%9F%A9%E9%98%B5/" rel="tag"> <i class="fa fa-tag"></i> 矩阵</a>
+              <a href="/tags/%E7%A7%A9/" rel="tag"> <i class="fa fa-tag"></i> 秩</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/12/26/blog%E6%90%AD%E5%BB%BA%E6%97%A5%E8%AE%B0/" rel="prev" title="blog搭建日记">
+                  <i class="fa fa-chevron-left"></i> blog搭建日记
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
+
 
 </div>
   </main>
@@ -412,7 +534,7 @@
 
   
 
-  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js","integrity":"sha256-r+3itOMtGGjap0x+10hu6jW/gZCzxHsoKrOd7gyRSGY="}}</script>
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js","integrity":"sha256-r+3itOMtGGjap0x+10hu6jW/gZCzxHsoKrOd7gyRSGY="}}</script>
 <script src="/js/third-party/math/mathjax.js"></script>
 
 
