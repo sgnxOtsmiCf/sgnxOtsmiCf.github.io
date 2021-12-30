@@ -36,6 +36,64 @@
       </tags>
   </entry>
   <entry>
+    <title>markdown语法及数学公式使用规则</title>
+    <url>/2021/12/25/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%A7%84%E5%88%99/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p><a href="https://www.jianshu.com/p/191d1e21f7ed">这里</a></p>
+</blockquote>
+<h3 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h3><blockquote>
+<p><a href="https://zhuanlan.zhihu.com/p/261750408?utm_source=wechat_session">这里1</a></p>
+<p><a href="https://blog.csdn.net/c20182030/article/details/84840373?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&amp;utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1#LaTexKaTex_26">这里2</a></p>
+</blockquote>
+<span id="more"></span>
+<blockquote>
+<p><a href="https://www.cnblogs.com/VincentValentine/p/15419593.html">这里3</a></p>
+<p><a href="https://www.jianshu.com/p/e74eb43960a1">这里4</a></p>
+<p><a href="https://www.jianshu.com/p/d63887d0c706">箭头集合</a></p>
+</blockquote>
+<p>…………..</p>
+ <img src="/2021/12/25/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%A7%84%E5%88%99/1Q7L5JUV5Y7_%60%7B9%7DE_K3N4V.jpg" class="" title="1Q7L5JUV5Y7_&#96;{9}E_K3N4V">
+<hr>
+]]></content>
+      <categories>
+        <category>markdown</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>二元函数求导</title>
+    <url>/2021/12/30/%E4%BA%8C%E5%85%83%E5%87%BD%E6%95%B0%E6%B1%82%E5%AF%BC/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 单纯的无聊做的，实际一丁点用都没有！</p>
+<span id="more"></span>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> cn.sgnxotsmicf.Demo;</span><br><span class="line"></span><br><span class="line"><span class="comment">//二元多项式求导</span></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">test0005</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        ArrayList&lt;Double&gt; <span class="keyword">var</span>  = <span class="keyword">new</span> ArrayList&lt;&gt;();<span class="comment">//变量系数</span></span><br><span class="line">        ArrayList&lt;Double&gt; exp  = <span class="keyword">new</span> ArrayList&lt;&gt;();<span class="comment">//幂次幂次</span></span><br><span class="line">        ArrayList&lt;Double&gt; varX1  = <span class="keyword">new</span> ArrayList&lt;&gt;();<span class="comment">//求x1时x2幂次</span></span><br><span class="line">        ArrayList&lt;Double&gt; varX2  = <span class="keyword">new</span> ArrayList&lt;&gt;();<span class="comment">//求x2时x1幂次</span></span><br><span class="line">        Scanner sc = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        x1_x2Judge(sc,<span class="keyword">var</span>,exp,varX1,varX2);</span><br><span class="line">        input(<span class="keyword">var</span>,exp,varX1,varX2);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">x1_x2Judge</span><span class="params">(Scanner sc,ArrayList&lt;Double&gt; <span class="keyword">var</span>,ArrayList&lt;Double&gt; exp,</span></span></span><br><span class="line"><span class="params"><span class="function">                                   ArrayList&lt;Double&gt; varX1,ArrayList&lt;Double&gt; varX2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> i =<span class="number">0</span>;</span><br><span class="line">        System.out.println(<span class="string">&quot;输入1对x1求导:&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> instruct1 = sc.nextInt();</span><br><span class="line">        System.out.println(<span class="string">&quot;请输入关于x&quot;</span>+instruct1+<span class="string">&quot;的项数:&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> number1 = sc.nextInt();</span><br><span class="line">        <span class="keyword">int</span> tempt =operation(sc,<span class="keyword">var</span>,exp,i,number1,instruct1,varX1,varX2);</span><br><span class="line">        System.out.println(<span class="string">&quot;输入2对x2求导:&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> instruct2= sc.nextInt();</span><br><span class="line">        System.out.println(<span class="string">&quot;请输入关于x&quot;</span>+instruct2+<span class="string">&quot;的项数:&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> number2 = sc.nextInt();</span><br><span class="line">        operation(sc,<span class="keyword">var</span>,exp,tempt,number2,instruct2,varX1,varX2);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">operation</span><span class="params">(Scanner sc,ArrayList&lt;Double&gt; <span class="keyword">var</span>,ArrayList&lt;Double&gt; exp,<span class="keyword">int</span> i,<span class="keyword">int</span> number,<span class="keyword">int</span> instruct,</span></span></span><br><span class="line"><span class="params"><span class="function">                                 ArrayList&lt;Double&gt; varX1,ArrayList&lt;Double&gt; varX2)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> tempt = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">do</span> &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;请输入第&quot;</span> + (tempt + <span class="number">1</span>) + <span class="string">&quot;个变量系数:&quot;</span>);</span><br><span class="line">            <span class="keyword">var</span>.add(sc.nextDouble());</span><br><span class="line">            System.out.println(<span class="string">&quot;请输入第&quot;</span> + (tempt + <span class="number">1</span>) + <span class="string">&quot;个变量幂次:&quot;</span>);</span><br><span class="line">            exp.add(sc.nextDouble());</span><br><span class="line">            <span class="keyword">if</span> (instruct == <span class="number">1</span>) &#123;</span><br><span class="line">                derivation_Operation(<span class="keyword">var</span>, exp, i);</span><br><span class="line">            &#125;<span class="keyword">else</span> <span class="keyword">if</span> (instruct == <span class="number">2</span>)&#123;</span><br><span class="line">                derivation_Operation(<span class="keyword">var</span>,exp,i);</span><br><span class="line">            &#125;</span><br><span class="line">            Judge(instruct,sc,varX1,varX2);</span><br><span class="line">            i++;</span><br><span class="line">            tempt++;</span><br><span class="line">        &#125; <span class="keyword">while</span> (tempt &lt; number);</span><br><span class="line">        <span class="keyword">return</span> i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Judge</span><span class="params">(<span class="keyword">int</span> instruct,Scanner sc,ArrayList&lt;Double&gt; varX1,ArrayList&lt;Double&gt; varX2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (instruct==<span class="number">1</span>)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;该x&quot;</span>+instruct+<span class="string">&quot;项(有/无)x2项相乘？&quot;</span>);</span><br><span class="line">            varX1_X2_Operation(sc,varX1);</span><br><span class="line">        &#125;<span class="keyword">else</span> <span class="keyword">if</span> (instruct==<span class="number">2</span>)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;该x&quot;</span>+instruct+<span class="string">&quot;项(有/无)x1项相乘？&quot;</span>);</span><br><span class="line">            varX1_X2_Operation(sc,varX2);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">varX1_X2_Operation</span><span class="params">(Scanner sc,ArrayList&lt;Double&gt; varX)</span> </span>&#123;</span><br><span class="line">        String answer = sc.next();</span><br><span class="line">        <span class="keyword">if</span> (answer.equals(<span class="string">&quot;有&quot;</span>))&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;幂次为多少？&quot;</span>);</span><br><span class="line">            <span class="keyword">double</span> x = sc.nextInt();</span><br><span class="line">            varX.add(x);</span><br><span class="line">        &#125;<span class="keyword">else</span> <span class="keyword">if</span> (answer.equals(<span class="string">&quot;无&quot;</span>))&#123;</span><br><span class="line">            varX.add(<span class="number">0.0</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">input</span><span class="params">(ArrayList&lt;Double&gt; <span class="keyword">var</span>, ArrayList&lt;Double&gt; exp, ArrayList&lt;Double&gt; varX1,ArrayList&lt;Double&gt; varX2)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;变量系数:&quot;</span>+<span class="keyword">var</span>.toString());</span><br><span class="line">        System.out.println(<span class="string">&quot;变量幂次:&quot;</span>+exp.toString());</span><br><span class="line">        System.out.println(<span class="string">&quot;求x1时x2幂次:&quot;</span>+varX1.toString());</span><br><span class="line">        System.out.println(<span class="string">&quot;求x2时x1幂次:&quot;</span>+varX2.toString());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">derivation_Operation</span><span class="params">(ArrayList&lt;Double&gt; <span class="keyword">var</span>,ArrayList&lt;Double&gt; exp,<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">var</span>.get(i)==<span class="number">0</span>||exp.get(i)==<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span>.set(i,<span class="number">0.0</span>);</span><br><span class="line">            exp.set(i,<span class="number">0.0</span>);</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">var</span>.set(i,<span class="keyword">var</span>.get(i)*exp.get(i));</span><br><span class="line">            exp.set(i,exp.get(i)-<span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>兴趣</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+        <tag>求导</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二次型与二次曲面</title>
+    <url>/2021/12/30/%E4%BA%8C%E6%AC%A1%E5%9E%8B%E4%B8%8E%E4%BA%8C%E6%AC%A1%E6%9B%B2%E9%9D%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>  来源于网络！！！用来总结复习！！！</p>
+<span id="more"></span>
+ <div class="pdf-container" data-target="./1.pdf" data-height="550px"></div> 
+<div class="pdf-container" data-target="./2.pdf" data-height="550px"></div> 
+<div class="pdf-container" data-target="./3.pdf" data-height="550px"></div> 
+<div class="pdf-container" data-target="./4.pdf" data-height="550px"></div> 
+<div class="pdf-container" data-target="./5.pdf" data-height="550px"></div> 
+]]></content>
+      <categories>
+        <category>高等代数</category>
+      </categories>
+      <tags>
+        <tag>二次型</tag>
+        <tag>二次曲面</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>努力学习</title>
     <url>/2021/09/23/%E5%8A%AA%E5%8A%9B%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>想要把平时感兴趣但没有深入了解的数学知识研究透彻，要把这些”兴趣”，或者说学习中的疑难困惑解决清楚，因此特发此篇，以来总结。<br><span id="more"></span></p>
@@ -73,42 +131,21 @@
       </tags>
   </entry>
   <entry>
-    <title>markdown语法及数学公式使用规则</title>
-    <url>/2021/12/25/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%A7%84%E5%88%99/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><blockquote>
-<p><a href="https://www.jianshu.com/p/191d1e21f7ed">这里</a></p>
-</blockquote>
-<h3 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h3><blockquote>
-<p><a href="https://zhuanlan.zhihu.com/p/261750408?utm_source=wechat_session">这里1</a></p>
-<p><a href="https://blog.csdn.net/c20182030/article/details/84840373?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&amp;utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1#LaTexKaTex_26">这里2</a></p>
-</blockquote>
+    <title>可逆矩阵的一些性质(一)</title>
+    <url>/2021/12/30/%E5%8F%AF%E9%80%86%E7%9F%A9%E9%98%B5%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%A7%E8%B4%A8(%E4%B8%80)/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol>
+<li><p>可逆矩阵，说明该方阵各向量线性无关，因为如果各向量线性相关，就不可能是可逆矩阵。</p>
 <span id="more"></span>
-<blockquote>
-<p><a href="https://www.cnblogs.com/VincentValentine/p/15419593.html">这里3</a></p>
-<p><a href="https://www.jianshu.com/p/e74eb43960a1">这里4</a></p>
-<p><a href="https://www.jianshu.com/p/d63887d0c706">箭头集合</a></p>
-</blockquote>
-<p>…………..</p>
- <img src="/2021/12/25/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%A7%84%E5%88%99/1Q7L5JUV5Y7_%60%7B9%7DE_K3N4V.jpg" class="" title="1Q7L5JUV5Y7_&#96;{9}E_K3N4V">
-<hr>
+</li>
+<li><p>如果一个方阵乘以非零向量，结果是0向量，那么说明以该非零向量各元素为系数，和该方阵各行向量相乘后相加，能得到0向量。<br>而非零向量的元素不能全部为0<br>所以就说明存在一组不全为0的系数，使得系数和行向量相乘后相加，结果为0向量。<br>这就说明行向量线性相关（线性相关的定义）<br>所以就不是可逆矩阵。<br><em>因此可逆矩阵乘以一个非零向量的结果不可能是0向量</em></p>
+</li>
+</ol>
 ]]></content>
       <categories>
-        <category>markdown</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>很叼的猜拳游戏</title>
-    <url>/2021/10/08/%E5%BE%88%E5%8F%BC%E7%9A%84%E7%8C%9C%E6%8B%B3%E6%B8%B8%E6%88%8F/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://cdn.mathpix.com/snip/images/pYX6MuIpPsS7tB3CpbeeuHjI_hrr9M5UdpfYzmbGKdA.original.fullsize.png" alt=""><br><span id="more"></span></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="built_in">input</span>(<span class="string">&quot;游戏规则:输入1代表出&lt;拳头&gt; 输入2代表出&lt;剪刀&gt; 输入3代表出&lt;布&gt;&quot;</span></span><br><span class="line">      <span class="string">&quot;\n       按回车继续......&quot;</span>)</span><br><span class="line"><span class="built_in">input</span>(<span class="string">&quot;胜负关系为:1&gt;2 2&gt;3 3&gt;1\n按回车开始游戏......&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;----------------------------------------------------------------------&quot;</span>)</span><br><span class="line">number = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入比赛回合:&quot;</span>))</span><br><span class="line">i = <span class="number">1</span></span><br><span class="line">win = <span class="number">0</span></span><br><span class="line">lose = <span class="number">0</span></span><br><span class="line">noun = <span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> i &lt;= number:</span><br><span class="line">    user = <span class="built_in">input</span>(<span class="string">&quot;请输入需要出的拳:石头(1)/剪刀(2)/布(3):&quot;</span>)</span><br><span class="line">    user = <span class="built_in">eval</span>(user)</span><br><span class="line">    computer = random.randint(<span class="number">1</span>, <span class="number">300</span>)  <span class="comment"># 随机产生1-300之间的随机整数</span></span><br><span class="line">    h = number - i</span><br><span class="line">    <span class="keyword">if</span> user == <span class="number">1</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 你出石头:%d&quot;</span> % user)</span><br><span class="line">    <span class="keyword">elif</span> user == <span class="number">2</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 你出剪刀:%d&quot;</span> % user)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 你出布: %d&quot;</span> % user)</span><br><span class="line">    <span class="keyword">if</span> (computer &gt;= <span class="number">1</span>) <span class="keyword">and</span> computer &lt;= <span class="number">100</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;电脑出石头:1 --(%d)&quot;</span> % computer)</span><br><span class="line">    <span class="keyword">elif</span> (computer &gt; <span class="number">100</span>) <span class="keyword">and</span> computer &lt;= <span class="number">200</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;电脑出剪刀:2 --(%d)&quot;</span> % computer)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 电脑出布:3 --(%d)&quot;</span> % computer)</span><br><span class="line">    <span class="comment"># print(&quot;-----规则:1&gt;2 2&gt;3 3&gt;1-----&quot;)</span></span><br><span class="line">    <span class="keyword">if</span> (user == <span class="number">1</span> <span class="keyword">and</span> ((computer &gt;= <span class="number">1</span>) <span class="keyword">and</span> computer &lt;= <span class="number">100</span>)) <span class="keyword">or</span> (</span><br><span class="line">            user == <span class="number">2</span> <span class="keyword">and</span> ((computer &gt; <span class="number">100</span>) <span class="keyword">and</span> computer &lt;= <span class="number">200</span>)) <span class="keyword">or</span> (</span><br><span class="line">            user == <span class="number">3</span> <span class="keyword">and</span> ((computer &gt; <span class="number">200</span>) <span class="keyword">and</span> computer &lt;= <span class="number">300</span>)):</span><br><span class="line">        noun = <span class="number">1</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;本回合平局!无胜负关系，重新再来!&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> user == <span class="number">1</span> <span class="keyword">and</span> (computer &gt; <span class="number">100</span>) <span class="keyword">and</span> computer &lt;= <span class="number">200</span> <span class="keyword">or</span> user == <span class="number">2</span> <span class="keyword">and</span> (</span><br><span class="line">            computer &gt; <span class="number">200</span>) <span class="keyword">and</span> computer &lt;= <span class="number">300</span> <span class="keyword">or</span> user == <span class="number">3</span> <span class="keyword">and</span> (computer &gt;= <span class="number">1</span>) <span class="keyword">and</span> computer &lt;= <span class="number">100</span>:</span><br><span class="line">        noun = <span class="number">0</span></span><br><span class="line">        win += <span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> h == <span class="number">0</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;本回合你赢了!回合结束,正在计算胜负关系......&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">if</span> win == <span class="built_in">int</span>(number / <span class="number">2</span> + <span class="number">1</span>):</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&quot;本回合你赢了!回合结束,正在计算胜负关系......&quot;</span>)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">f&quot;本回合你赢了!但别太高兴，你只赢了<span class="subst">&#123;win&#125;</span>个回合-----------------------还剩<span class="subst">&#123;h&#125;</span>个回合!&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> win == <span class="built_in">int</span>(number / <span class="number">2</span> + <span class="number">1</span>):</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;----------------------------------------------------------------------&quot;</span>)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;好吧，你赢了，<span class="subst">&#123;number&#125;</span>局游戏赢了<span class="subst">&#123;win&#125;</span>局!&quot;</span>)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;恭喜你!成功赢了电脑!牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛!&quot;</span>)</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        noun = <span class="number">0</span></span><br><span class="line">        lose += <span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> h == <span class="number">0</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;本回合你输了!回合结束，正在计算胜负关系......&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;本回合你输了!菜狗，电脑都赢不了，你已经输了<span class="subst">&#123;lose&#125;</span>回合了-----------------------还剩<span class="subst">&#123;h&#125;</span>个回合&quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;----------------------------------------------------------------------&quot;</span>)</span><br><span class="line">    <span class="comment"># if (i == number) and (win &gt;= 0 and win &lt; number/2):</span></span><br><span class="line">    <span class="comment">#     print(f&quot;&#123;number&#125;次比赛你只赢了&#123;win&#125;个回合，你输了!&quot;)</span></span><br><span class="line">    <span class="keyword">if</span> lose == <span class="built_in">int</span>(number / <span class="number">2</span> + <span class="number">1</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;很遗憾，你输了!&quot;</span>)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;number&#125;</span>个回合你已经输了<span class="subst">&#123;lose&#125;</span>个回合了，我奶奶玩都比你强!&quot;</span>)</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">elif</span> (i == number) <span class="keyword">and</span> win == number / <span class="number">2</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;number&#125;</span>个回合你只赢了<span class="subst">&#123;win&#125;</span>个回合:平局!&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> noun == <span class="number">1</span>:</span><br><span class="line">        i = i</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        i += <span class="number">1</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>小游戏</category>
+        <category>高等代数</category>
       </categories>
       <tags>
-        <tag>while逻辑运算符</tag>
-        <tag>if逻辑运算符</tag>
-        <tag>python</tag>
+        <tag>矩阵</tag>
       </tags>
   </entry>
   <entry>
@@ -142,23 +179,18 @@
       </tags>
   </entry>
   <entry>
-    <title>极限1</title>
-    <url>/2021/09/13/%E6%9E%81%E9%99%901/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 这道题有点难受，最后一步诱导性极强，我(本人)每一次第一反应都tm是0！<br><span id="more"></span></p>
-<script type="math/tex; mode=display">
-\text { 求 } \lim _{x \rightarrow 0}\left(\frac{(1+x)^{\frac{1} {x} } } {(1+\sin x)^{\frac{1} {\sin x} } }\right)^{\frac{1} {x^{3} } }</script><p>这道题我认为诱导性很强（对我），题本身不难，但每次快写出来的时候就会被各种各样的问题卡住了。要不是cosx没有及时化简掉；要不就是在最后一步，最简单的等价无穷小代换我竟然忘掉了，不是忘掉了某个公式，而是压根就没有想起来，神奇！</p>
-<h3 id="求解过程"><a href="#求解过程" class="headerlink" title="求解过程"></a>求解过程</h3><p><img src="https://cdn.mathpix.com/snip/images/Nu9orVKInkJHQp1_y4EaBqBE5EW9-7-lT3ISsMEaSTE.original.fullsize.png" alt=""></p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在倒数第二步，也就是”三项分开解”上一行，每次算到这里我都会”失忆“，什么泰勒公式呀、等价无穷小替换呀、洛必达呀都选择性失忆了，只剩下个鸡蛋”0“了!</p>
-<p>~好吧，从根本上（解题方式上）我的感性思维占的更多一点吧，导致每每造成这种不是失误的失误。我想，每一步都应该规范在数学知识的框架上！</p>
-<p><em>不是吗？</em></p>
-<hr>
-<p>请看这里：<a href="https://www.bilibili.com/video/BV1Qs411J7QQ?p=30&amp;spm_id_from=pageDriver">有个好东西！</a></p>
+    <title>很叼的猜拳游戏</title>
+    <url>/2021/10/08/%E5%BE%88%E5%8F%BC%E7%9A%84%E7%8C%9C%E6%8B%B3%E6%B8%B8%E6%88%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://cdn.mathpix.com/snip/images/pYX6MuIpPsS7tB3CpbeeuHjI_hrr9M5UdpfYzmbGKdA.original.fullsize.png" alt=""><br><span id="more"></span></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="built_in">input</span>(<span class="string">&quot;游戏规则:输入1代表出&lt;拳头&gt; 输入2代表出&lt;剪刀&gt; 输入3代表出&lt;布&gt;&quot;</span></span><br><span class="line">      <span class="string">&quot;\n       按回车继续......&quot;</span>)</span><br><span class="line"><span class="built_in">input</span>(<span class="string">&quot;胜负关系为:1&gt;2 2&gt;3 3&gt;1\n按回车开始游戏......&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;----------------------------------------------------------------------&quot;</span>)</span><br><span class="line">number = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入比赛回合:&quot;</span>))</span><br><span class="line">i = <span class="number">1</span></span><br><span class="line">win = <span class="number">0</span></span><br><span class="line">lose = <span class="number">0</span></span><br><span class="line">noun = <span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> i &lt;= number:</span><br><span class="line">    user = <span class="built_in">input</span>(<span class="string">&quot;请输入需要出的拳:石头(1)/剪刀(2)/布(3):&quot;</span>)</span><br><span class="line">    user = <span class="built_in">eval</span>(user)</span><br><span class="line">    computer = random.randint(<span class="number">1</span>, <span class="number">300</span>)  <span class="comment"># 随机产生1-300之间的随机整数</span></span><br><span class="line">    h = number - i</span><br><span class="line">    <span class="keyword">if</span> user == <span class="number">1</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 你出石头:%d&quot;</span> % user)</span><br><span class="line">    <span class="keyword">elif</span> user == <span class="number">2</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 你出剪刀:%d&quot;</span> % user)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 你出布: %d&quot;</span> % user)</span><br><span class="line">    <span class="keyword">if</span> (computer &gt;= <span class="number">1</span>) <span class="keyword">and</span> computer &lt;= <span class="number">100</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;电脑出石头:1 --(%d)&quot;</span> % computer)</span><br><span class="line">    <span class="keyword">elif</span> (computer &gt; <span class="number">100</span>) <span class="keyword">and</span> computer &lt;= <span class="number">200</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;电脑出剪刀:2 --(%d)&quot;</span> % computer)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; 电脑出布:3 --(%d)&quot;</span> % computer)</span><br><span class="line">    <span class="comment"># print(&quot;-----规则:1&gt;2 2&gt;3 3&gt;1-----&quot;)</span></span><br><span class="line">    <span class="keyword">if</span> (user == <span class="number">1</span> <span class="keyword">and</span> ((computer &gt;= <span class="number">1</span>) <span class="keyword">and</span> computer &lt;= <span class="number">100</span>)) <span class="keyword">or</span> (</span><br><span class="line">            user == <span class="number">2</span> <span class="keyword">and</span> ((computer &gt; <span class="number">100</span>) <span class="keyword">and</span> computer &lt;= <span class="number">200</span>)) <span class="keyword">or</span> (</span><br><span class="line">            user == <span class="number">3</span> <span class="keyword">and</span> ((computer &gt; <span class="number">200</span>) <span class="keyword">and</span> computer &lt;= <span class="number">300</span>)):</span><br><span class="line">        noun = <span class="number">1</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;本回合平局!无胜负关系，重新再来!&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> user == <span class="number">1</span> <span class="keyword">and</span> (computer &gt; <span class="number">100</span>) <span class="keyword">and</span> computer &lt;= <span class="number">200</span> <span class="keyword">or</span> user == <span class="number">2</span> <span class="keyword">and</span> (</span><br><span class="line">            computer &gt; <span class="number">200</span>) <span class="keyword">and</span> computer &lt;= <span class="number">300</span> <span class="keyword">or</span> user == <span class="number">3</span> <span class="keyword">and</span> (computer &gt;= <span class="number">1</span>) <span class="keyword">and</span> computer &lt;= <span class="number">100</span>:</span><br><span class="line">        noun = <span class="number">0</span></span><br><span class="line">        win += <span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> h == <span class="number">0</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;本回合你赢了!回合结束,正在计算胜负关系......&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">if</span> win == <span class="built_in">int</span>(number / <span class="number">2</span> + <span class="number">1</span>):</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&quot;本回合你赢了!回合结束,正在计算胜负关系......&quot;</span>)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">f&quot;本回合你赢了!但别太高兴，你只赢了<span class="subst">&#123;win&#125;</span>个回合-----------------------还剩<span class="subst">&#123;h&#125;</span>个回合!&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> win == <span class="built_in">int</span>(number / <span class="number">2</span> + <span class="number">1</span>):</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;----------------------------------------------------------------------&quot;</span>)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;好吧，你赢了，<span class="subst">&#123;number&#125;</span>局游戏赢了<span class="subst">&#123;win&#125;</span>局!&quot;</span>)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;恭喜你!成功赢了电脑!牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛牛!&quot;</span>)</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        noun = <span class="number">0</span></span><br><span class="line">        lose += <span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> h == <span class="number">0</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;本回合你输了!回合结束，正在计算胜负关系......&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;本回合你输了!菜狗，电脑都赢不了，你已经输了<span class="subst">&#123;lose&#125;</span>回合了-----------------------还剩<span class="subst">&#123;h&#125;</span>个回合&quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;----------------------------------------------------------------------&quot;</span>)</span><br><span class="line">    <span class="comment"># if (i == number) and (win &gt;= 0 and win &lt; number/2):</span></span><br><span class="line">    <span class="comment">#     print(f&quot;&#123;number&#125;次比赛你只赢了&#123;win&#125;个回合，你输了!&quot;)</span></span><br><span class="line">    <span class="keyword">if</span> lose == <span class="built_in">int</span>(number / <span class="number">2</span> + <span class="number">1</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;很遗憾，你输了!&quot;</span>)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;number&#125;</span>个回合你已经输了<span class="subst">&#123;lose&#125;</span>个回合了，我奶奶玩都比你强!&quot;</span>)</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">elif</span> (i == number) <span class="keyword">and</span> win == number / <span class="number">2</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;number&#125;</span>个回合你只赢了<span class="subst">&#123;win&#125;</span>个回合:平局!&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> noun == <span class="number">1</span>:</span><br><span class="line">        i = i</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        i += <span class="number">1</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>极限</category>
+        <category>小游戏</category>
       </categories>
       <tags>
-        <tag>极限</tag>
+        <tag>while逻辑运算符</tag>
+        <tag>if逻辑运算符</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -187,18 +219,66 @@
       </tags>
   </entry>
   <entry>
-    <title>阻尼Newton法</title>
-    <url>/2021/12/25/%E9%98%BB%E5%B0%BCNewton%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>  一般用来寻找二元函数最优解</p>
-<span id="more"></span>
-<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">ZN_Newton</span><span class="params">(fun,x0,epsilon)</span></span></span><br><span class="line"><span class="comment">% 阻尼Newton法</span></span><br><span class="line"><span class="comment">%  fun = (1-x1)^2+2*(x2-x1^2)^2; x0 = [0;0]; epsilon = 0.1;</span></span><br><span class="line"><span class="comment">%  fun = (x1-1)^4+(x1-x2)^2; x0 = [0;0]; epsilon = 10^-6;</span></span><br><span class="line"><span class="comment">%  fun =  x1^2+x2^2-3*x1-x1*x2; x0 =[0;0];epsilon = 0.1;</span></span><br><span class="line"><span class="comment">%  fun =  (x1-2)^2+(x1-2*x2)^2; x0 =[0;3];epsilon = 0.4;</span></span><br><span class="line"><span class="comment">% clear;clc</span></span><br><span class="line"><span class="comment">% by -- 2021.12.9 -- cn.sgnxotsmicf.Lx</span></span><br><span class="line">clc</span><br><span class="line"><span class="built_in">disp</span>(<span class="string">&#x27;==================阻尼Newton法==================&#x27;</span>)</span><br><span class="line">syms x1 x2</span><br><span class="line">n = <span class="built_in">length</span>(x0); <span class="comment">% 解的长度</span></span><br><span class="line">k = <span class="number">0</span>;    <span class="comment">% 迭代次数</span></span><br><span class="line"><span class="comment">% 初始化值</span></span><br><span class="line">grad_f = [diff(fun,x1);diff(fun,x2)];</span><br><span class="line">Hesse = hessian(fun,[x1,x2]);</span><br><span class="line">x = <span class="built_in">zeros</span>(n,<span class="number">10</span>); </span><br><span class="line">y = <span class="built_in">zeros</span>(n,<span class="number">10</span>);</span><br><span class="line">index = <span class="number">1</span>;  <span class="comment">% 索引</span></span><br><span class="line">x(:,index) = x0;</span><br><span class="line"><span class="comment">% 进入迭代逻辑</span></span><br><span class="line"><span class="keyword">while</span>(<span class="built_in">true</span>)</span><br><span class="line">    syms lamuda <span class="built_in">real</span></span><br><span class="line">    gk = subs(grad_f,[x1;x2],x(:,index));</span><br><span class="line">    gk = double(gk);</span><br><span class="line">    gk_Hesse = subs(Hesse,[x1;x2],x(:,index));</span><br><span class="line">    y(:,index) = gk;</span><br><span class="line">    <span class="keyword">if</span>(norm(gk) &gt; epsilon) <span class="comment">% 精度判断</span></span><br><span class="line">        dk = - gk_Hesse^<span class="number">-1</span> * gk;</span><br><span class="line">        f1 = subs(fun,[x1;x2],x(:,index)+lamuda * dk);</span><br><span class="line">        f1 = diff(f1);</span><br><span class="line">        lamuda = solve(f1);      </span><br><span class="line">                lamuda = <span class="built_in">max</span>(lamuda); <span class="comment">% 进入实数循环</span></span><br><span class="line">                 <span class="keyword">if</span>(lamuda ~= <span class="number">0</span>)</span><br><span class="line">                      x(:,index+<span class="number">1</span>) = x(:,index) + lamuda*dk;</span><br><span class="line">                 <span class="keyword">else</span></span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                 <span class="keyword">end</span>      </span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line"> <span class="comment">% 迭代结束进行输出</span></span><br><span class="line">     val = x(:,index);</span><br><span class="line">     fprintf(<span class="string">&#x27;阻尼Newton所求的函数为:%s\n迭代次数为;%d次\n&#x27;</span>,fun,k)</span><br><span class="line">     str = [<span class="string">&#x27;最优解为:[&#x27;</span>,num2str(val&#x27;),<span class="string">&#x27;]&#x27;</span>];</span><br><span class="line">     <span class="built_in">disp</span>(str)</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    index = index + <span class="number">1</span>;</span><br><span class="line">    k = k + <span class="number">1</span>;</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+    <title>极限1</title>
+    <url>/2021/09/13/%E6%9E%81%E9%99%901/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 这道题有点难受，最后一步诱导性极强，我(本人)每一次第一反应都tm是0！<br><span id="more"></span></p>
+<script type="math/tex; mode=display">
+\text { 求 } \lim _{x \rightarrow 0}\left(\frac{(1+x)^{\frac{1} {x} } } {(1+\sin x)^{\frac{1} {\sin x} } }\right)^{\frac{1} {x^{3} } }</script><p>这道题我认为诱导性很强（对我），题本身不难，但每次快写出来的时候就会被各种各样的问题卡住了。要不是cosx没有及时化简掉；要不就是在最后一步，最简单的等价无穷小代换我竟然忘掉了，不是忘掉了某个公式，而是压根就没有想起来，神奇！</p>
+<h3 id="求解过程"><a href="#求解过程" class="headerlink" title="求解过程"></a>求解过程</h3><p><img src="https://cdn.mathpix.com/snip/images/Nu9orVKInkJHQp1_y4EaBqBE5EW9-7-lT3ISsMEaSTE.original.fullsize.png" alt=""></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在倒数第二步，也就是”三项分开解”上一行，每次算到这里我都会”失忆“，什么泰勒公式呀、等价无穷小替换呀、洛必达呀都选择性失忆了，只剩下个鸡蛋”0“了!</p>
+<p>~好吧，从根本上（解题方式上）我的感性思维占的更多一点吧，导致每每造成这种不是失误的失误。我想，每一步都应该规范在数学知识的框架上！</p>
+<p><em>不是吗？</em></p>
+<hr>
+<p>请看这里：<a href="https://www.bilibili.com/video/BV1Qs411J7QQ?p=30&amp;spm_id_from=pageDriver">有个好东西！</a></p>
 ]]></content>
       <categories>
-        <category>最优化方法</category>
+        <category>极限</category>
       </categories>
       <tags>
-        <tag>最优化算法</tag>
-        <tag>matlab</tag>
+        <tag>极限</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>降阶公式与矩阵秩的性质</title>
+    <url>/2021/12/26/%E9%99%8D%E9%98%B6%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%9F%A9%E9%98%B5%E7%A7%A9%E7%9A%84%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="降阶公式"><a href="#降阶公式" class="headerlink" title="降阶公式"></a>降阶公式</h3><script type="math/tex; mode=display">
+\begin{vmatrix}{\lambda}{E_{m}-AB}\end{vmatrix}={\lambda}^{m-n}\begin{vmatrix}{\lambda}{E_{n}}{-BA}\end{vmatrix}</script><p>其中$E_{m}{}$ 、 $E_{n}$分别为$m阶、n阶$单位阵</p>
+<span id="more"></span>
+<h3 id="矩阵秩的性质"><a href="#矩阵秩的性质" class="headerlink" title="矩阵秩的性质"></a>矩阵秩的性质</h3><ol>
+<li><p>$0{\le}{R(A)}{\le}{min}${$m,n$}</p>
+</li>
+<li><p>$\begin{cases}0,k=0 \\ {R(A)},k{\not=0}<br> \end{cases}$​</p>
+</li>
+<li><p>$R(A_1){\le}{R(A)}$   其中，$A_1是A的子矩阵$</p>
+</li>
+<li><p>$R(A^T)=R(A)$  其中，$A^T是A的转置$</p>
+</li>
+<li><p>$A{\rightarrow}^{初等变换}{\rightarrow}B{\Rightarrow}{R(A)=R(B)}$</p>
+</li>
+<li><p>$R\begin{pmatrix}A&amp;0 \\ 0&amp;B\end{pmatrix}$记$R(A)=r_1{\quad} R(B)=r_2$</p>
+<p>= $r_1+r_2$</p>
+</li>
+<li><p>$R(A,B)\le{R(A)+R(B)}$</p>
+</li>
+<li><p>$R(A+B)\le{R(A)+R(B)}$</p>
+</li>
+<li><p>$R(AB)\le{min\{ R\big(A),R\big(B)\}}$</p>
+</li>
+<li><p>$\cal<strong>重点</strong>:$</p>
+<p>设$A\in{F^{m\times{n}}},B\in{F^{m\times{n}}}$</p>
+<p>$R(A)+R(B)-n\le{R\big(AB)}\le{min\{R(A),R(B)\}}$</p>
+<p>特别地，若$AB=0$,则</p>
+<p>$R(A)+R(B)\le{n}$</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>高等代数</category>
+      </categories>
+      <tags>
+        <tag>矩阵</tag>
+        <tag>公式</tag>
+        <tag>秩</tag>
       </tags>
   </entry>
   <entry>
@@ -244,46 +324,18 @@
       </tags>
   </entry>
   <entry>
-    <title>降阶公式与矩阵秩的性质</title>
-    <url>/2021/12/26/%E9%99%8D%E9%98%B6%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%9F%A9%E9%98%B5%E7%A7%A9%E7%9A%84%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="降阶公式"><a href="#降阶公式" class="headerlink" title="降阶公式"></a>降阶公式</h3><script type="math/tex; mode=display">
-\begin{vmatrix}{\lambda}{E_{m}-AB}\end{vmatrix}={\lambda}^{m-n}\begin{vmatrix}{\lambda}{E_{n}}{-BA}\end{vmatrix}</script><p>其中$E_{m}{}$ 、 $E_{n}$分别为$m阶、n阶$单位阵</p>
+    <title>阻尼Newton法</title>
+    <url>/2021/12/25/%E9%98%BB%E5%B0%BCNewton%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>  一般用来寻找二元函数最优解</p>
 <span id="more"></span>
-<h3 id="矩阵秩的性质"><a href="#矩阵秩的性质" class="headerlink" title="矩阵秩的性质"></a>矩阵秩的性质</h3><ol>
-<li><p>$0{\le}{R(A)}{\le}{min}${$m,n$}</p>
-</li>
-<li><p>$\begin{cases}0,k=0 \\ {R(A)},k{\not=0}<br> \end{cases}$​</p>
-</li>
-<li><p>$R(A_1){\le}{R(A)}$   其中，$A_1是A的子矩阵$</p>
-</li>
-<li><p>$R(A^T)=R(A)$  其中，$A^T是A的转置$</p>
-</li>
-<li><p>$A{\rightarrow}^{初等变换}{\rightarrow}B{\Rightarrow}{R(A)=R(B)}$</p>
-</li>
-<li><p>$R\begin{pmatrix}A&amp;0 \\ 0&amp;B\end{pmatrix}$记$R(A)=r_1{\quad} R(B)=r_2$</p>
-<p>= $r_1+r_2$</p>
-</li>
-<li><p>$R(A,B)\le{R(A)+R(B)}$</p>
-</li>
-<li><p>$R(A+B)\le{R(A)+R(B)}$</p>
-</li>
-<li><p>$R(AB)\le{min\{ R\big(A),R\big(B)\}}$</p>
-</li>
-<li><p>$\cal<strong>重点</strong>:$</p>
-<p>设$A\in{F^{m\times{n}}},B\in{F^{m\times{n}}}$</p>
-<p>$R(A)+R(B)-n\le{R\big(AB)}\le{min\{R(A),R(B)\}}$</p>
-<p>特别地，若$AB=0$,则</p>
-<p>$R(A)+R(B)\le{n}$</p>
-</li>
-</ol>
+<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">ZN_Newton</span><span class="params">(fun,x0,epsilon)</span></span></span><br><span class="line"><span class="comment">% 阻尼Newton法</span></span><br><span class="line"><span class="comment">%  fun = (1-x1)^2+2*(x2-x1^2)^2; x0 = [0;0]; epsilon = 0.1;</span></span><br><span class="line"><span class="comment">%  fun = (x1-1)^4+(x1-x2)^2; x0 = [0;0]; epsilon = 10^-6;</span></span><br><span class="line"><span class="comment">%  fun =  x1^2+x2^2-3*x1-x1*x2; x0 =[0;0];epsilon = 0.1;</span></span><br><span class="line"><span class="comment">%  fun =  (x1-2)^2+(x1-2*x2)^2; x0 =[0;3];epsilon = 0.4;</span></span><br><span class="line"><span class="comment">% clear;clc</span></span><br><span class="line"><span class="comment">% by -- 2021.12.9 -- cn.sgnxotsmicf.Lx</span></span><br><span class="line">clc</span><br><span class="line"><span class="built_in">disp</span>(<span class="string">&#x27;==================阻尼Newton法==================&#x27;</span>)</span><br><span class="line">syms x1 x2</span><br><span class="line">n = <span class="built_in">length</span>(x0); <span class="comment">% 解的长度</span></span><br><span class="line">k = <span class="number">0</span>;    <span class="comment">% 迭代次数</span></span><br><span class="line"><span class="comment">% 初始化值</span></span><br><span class="line">grad_f = [diff(fun,x1);diff(fun,x2)];</span><br><span class="line">Hesse = hessian(fun,[x1,x2]);</span><br><span class="line">x = <span class="built_in">zeros</span>(n,<span class="number">10</span>); </span><br><span class="line">y = <span class="built_in">zeros</span>(n,<span class="number">10</span>);</span><br><span class="line">index = <span class="number">1</span>;  <span class="comment">% 索引</span></span><br><span class="line">x(:,index) = x0;</span><br><span class="line"><span class="comment">% 进入迭代逻辑</span></span><br><span class="line"><span class="keyword">while</span>(<span class="built_in">true</span>)</span><br><span class="line">    syms lamuda <span class="built_in">real</span></span><br><span class="line">    gk = subs(grad_f,[x1;x2],x(:,index));</span><br><span class="line">    gk = double(gk);</span><br><span class="line">    gk_Hesse = subs(Hesse,[x1;x2],x(:,index));</span><br><span class="line">    y(:,index) = gk;</span><br><span class="line">    <span class="keyword">if</span>(norm(gk) &gt; epsilon) <span class="comment">% 精度判断</span></span><br><span class="line">        dk = - gk_Hesse^<span class="number">-1</span> * gk;</span><br><span class="line">        f1 = subs(fun,[x1;x2],x(:,index)+lamuda * dk);</span><br><span class="line">        f1 = diff(f1);</span><br><span class="line">        lamuda = solve(f1);      </span><br><span class="line">                lamuda = <span class="built_in">max</span>(lamuda); <span class="comment">% 进入实数循环</span></span><br><span class="line">                 <span class="keyword">if</span>(lamuda ~= <span class="number">0</span>)</span><br><span class="line">                      x(:,index+<span class="number">1</span>) = x(:,index) + lamuda*dk;</span><br><span class="line">                 <span class="keyword">else</span></span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                 <span class="keyword">end</span>      </span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line"> <span class="comment">% 迭代结束进行输出</span></span><br><span class="line">     val = x(:,index);</span><br><span class="line">     fprintf(<span class="string">&#x27;阻尼Newton所求的函数为:%s\n迭代次数为;%d次\n&#x27;</span>,fun,k)</span><br><span class="line">     str = [<span class="string">&#x27;最优解为:[&#x27;</span>,num2str(val&#x27;),<span class="string">&#x27;]&#x27;</span>];</span><br><span class="line">     <span class="built_in">disp</span>(str)</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    index = index + <span class="number">1</span>;</span><br><span class="line">    k = k + <span class="number">1</span>;</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>高等代数</category>
+        <category>最优化方法</category>
       </categories>
       <tags>
-        <tag>公式</tag>
-        <tag>矩阵</tag>
-        <tag>秩</tag>
+        <tag>最优化算法</tag>
+        <tag>matlab</tag>
       </tags>
   </entry>
 </search>

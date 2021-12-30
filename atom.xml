@@ -6,7 +6,7 @@
   <link href="http://sgnxotsmicf.com/atom.xml" rel="self"/>
   
   <link href="http://sgnxotsmicf.com/"/>
-  <updated>2021-12-26T15:52:56.639Z</updated>
+  <updated>2021-12-30T05:32:03.436Z</updated>
   <id>http://sgnxotsmicf.com/</id>
   
   <author>
@@ -15,6 +15,74 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二元函数求导</title>
+    <link href="http://sgnxotsmicf.com/2021/12/30/%E4%BA%8C%E5%85%83%E5%87%BD%E6%95%B0%E6%B1%82%E5%AF%BC/"/>
+    <id>http://sgnxotsmicf.com/2021/12/30/%E4%BA%8C%E5%85%83%E5%87%BD%E6%95%B0%E6%B1%82%E5%AF%BC/</id>
+    <published>2021-12-30T05:26:55.000Z</published>
+    <updated>2021-12-30T05:32:03.436Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 单纯的无聊做的，实际一丁点用都没有！</p><span id="more"></span><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> cn.sgnxotsmicf.Demo;</span><br><span class="line"></span><br><span class="line"><span class="comment">//二元多项式求导</span></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">test0005</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        ArrayList&lt;Double&gt; <span class="keyword">var</span>  = <span class="keyword">new</span> ArrayList&lt;&gt;();<span class="comment">//变量系数</span></span><br><span class="line">        ArrayList&lt;Double&gt; exp  = <span class="keyword">new</span> ArrayList&lt;&gt;();<span class="comment">//幂次幂次</span></span><br><span class="line">        ArrayList&lt;Double&gt; varX1  = <span class="keyword">new</span> ArrayList&lt;&gt;();<span class="comment">//求x1时x2幂次</span></span><br><span class="line">        ArrayList&lt;Double&gt; varX2  = <span class="keyword">new</span> ArrayList&lt;&gt;();<span class="comment">//求x2时x1幂次</span></span><br><span class="line">        Scanner sc = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        x1_x2Judge(sc,<span class="keyword">var</span>,exp,varX1,varX2);</span><br><span class="line">        input(<span class="keyword">var</span>,exp,varX1,varX2);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">x1_x2Judge</span><span class="params">(Scanner sc,ArrayList&lt;Double&gt; <span class="keyword">var</span>,ArrayList&lt;Double&gt; exp,</span></span></span><br><span class="line"><span class="params"><span class="function">                                   ArrayList&lt;Double&gt; varX1,ArrayList&lt;Double&gt; varX2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> i =<span class="number">0</span>;</span><br><span class="line">        System.out.println(<span class="string">&quot;输入1对x1求导:&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> instruct1 = sc.nextInt();</span><br><span class="line">        System.out.println(<span class="string">&quot;请输入关于x&quot;</span>+instruct1+<span class="string">&quot;的项数:&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> number1 = sc.nextInt();</span><br><span class="line">        <span class="keyword">int</span> tempt =operation(sc,<span class="keyword">var</span>,exp,i,number1,instruct1,varX1,varX2);</span><br><span class="line">        System.out.println(<span class="string">&quot;输入2对x2求导:&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> instruct2= sc.nextInt();</span><br><span class="line">        System.out.println(<span class="string">&quot;请输入关于x&quot;</span>+instruct2+<span class="string">&quot;的项数:&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> number2 = sc.nextInt();</span><br><span class="line">        operation(sc,<span class="keyword">var</span>,exp,tempt,number2,instruct2,varX1,varX2);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">operation</span><span class="params">(Scanner sc,ArrayList&lt;Double&gt; <span class="keyword">var</span>,ArrayList&lt;Double&gt; exp,<span class="keyword">int</span> i,<span class="keyword">int</span> number,<span class="keyword">int</span> instruct,</span></span></span><br><span class="line"><span class="params"><span class="function">                                 ArrayList&lt;Double&gt; varX1,ArrayList&lt;Double&gt; varX2)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> tempt = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">do</span> &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;请输入第&quot;</span> + (tempt + <span class="number">1</span>) + <span class="string">&quot;个变量系数:&quot;</span>);</span><br><span class="line">            <span class="keyword">var</span>.add(sc.nextDouble());</span><br><span class="line">            System.out.println(<span class="string">&quot;请输入第&quot;</span> + (tempt + <span class="number">1</span>) + <span class="string">&quot;个变量幂次:&quot;</span>);</span><br><span class="line">            exp.add(sc.nextDouble());</span><br><span class="line">            <span class="keyword">if</span> (instruct == <span class="number">1</span>) &#123;</span><br><span class="line">                derivation_Operation(<span class="keyword">var</span>, exp, i);</span><br><span class="line">            &#125;<span class="keyword">else</span> <span class="keyword">if</span> (instruct == <span class="number">2</span>)&#123;</span><br><span class="line">                derivation_Operation(<span class="keyword">var</span>,exp,i);</span><br><span class="line">            &#125;</span><br><span class="line">            Judge(instruct,sc,varX1,varX2);</span><br><span class="line">            i++;</span><br><span class="line">            tempt++;</span><br><span class="line">        &#125; <span class="keyword">while</span> (tempt &lt; number);</span><br><span class="line">        <span class="keyword">return</span> i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Judge</span><span class="params">(<span class="keyword">int</span> instruct,Scanner sc,ArrayList&lt;Double&gt; varX1,ArrayList&lt;Double&gt; varX2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (instruct==<span class="number">1</span>)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;该x&quot;</span>+instruct+<span class="string">&quot;项(有/无)x2项相乘？&quot;</span>);</span><br><span class="line">            varX1_X2_Operation(sc,varX1);</span><br><span class="line">        &#125;<span class="keyword">else</span> <span class="keyword">if</span> (instruct==<span class="number">2</span>)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;该x&quot;</span>+instruct+<span class="string">&quot;项(有/无)x1项相乘？&quot;</span>);</span><br><span class="line">            varX1_X2_Operation(sc,varX2);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">varX1_X2_Operation</span><span class="params">(Scanner sc,ArrayList&lt;Double&gt; varX)</span> </span>&#123;</span><br><span class="line">        String answer = sc.next();</span><br><span class="line">        <span class="keyword">if</span> (answer.equals(<span class="string">&quot;有&quot;</span>))&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;幂次为多少？&quot;</span>);</span><br><span class="line">            <span class="keyword">double</span> x = sc.nextInt();</span><br><span class="line">            varX.add(x);</span><br><span class="line">        &#125;<span class="keyword">else</span> <span class="keyword">if</span> (answer.equals(<span class="string">&quot;无&quot;</span>))&#123;</span><br><span class="line">            varX.add(<span class="number">0.0</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">input</span><span class="params">(ArrayList&lt;Double&gt; <span class="keyword">var</span>, ArrayList&lt;Double&gt; exp, ArrayList&lt;Double&gt; varX1,ArrayList&lt;Double&gt; varX2)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;变量系数:&quot;</span>+<span class="keyword">var</span>.toString());</span><br><span class="line">        System.out.println(<span class="string">&quot;变量幂次:&quot;</span>+exp.toString());</span><br><span class="line">        System.out.println(<span class="string">&quot;求x1时x2幂次:&quot;</span>+varX1.toString());</span><br><span class="line">        System.out.println(<span class="string">&quot;求x2时x1幂次:&quot;</span>+varX2.toString());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">derivation_Operation</span><span class="params">(ArrayList&lt;Double&gt; <span class="keyword">var</span>,ArrayList&lt;Double&gt; exp,<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">var</span>.get(i)==<span class="number">0</span>||exp.get(i)==<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span>.set(i,<span class="number">0.0</span>);</span><br><span class="line">            exp.set(i,<span class="number">0.0</span>);</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">var</span>.set(i,<span class="keyword">var</span>.get(i)*exp.get(i));</span><br><span class="line">            exp.set(i,exp.get(i)-<span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt; 单纯的无聊做的，实际一丁点用都没有！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="兴趣" scheme="http://sgnxotsmicf.com/categories/%E5%85%B4%E8%B6%A3/"/>
+    
+    
+    <category term="java" scheme="http://sgnxotsmicf.com/tags/java/"/>
+    
+    <category term="求导" scheme="http://sgnxotsmicf.com/tags/%E6%B1%82%E5%AF%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二次型与二次曲面</title>
+    <link href="http://sgnxotsmicf.com/2021/12/30/%E4%BA%8C%E6%AC%A1%E5%9E%8B%E4%B8%8E%E4%BA%8C%E6%AC%A1%E6%9B%B2%E9%9D%A2/"/>
+    <id>http://sgnxotsmicf.com/2021/12/30/%E4%BA%8C%E6%AC%A1%E5%9E%8B%E4%B8%8E%E4%BA%8C%E6%AC%A1%E6%9B%B2%E9%9D%A2/</id>
+    <published>2021-12-30T05:26:52.000Z</published>
+    <updated>2021-12-30T05:58:56.116Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>  来源于网络！！！用来总结复习！！！</p><span id="more"></span> <div class="pdf-container" data-target="./1.pdf" data-height="550px"></div> <div class="pdf-container" data-target="./2.pdf" data-height="550px"></div> <div class="pdf-container" data-target="./3.pdf" data-height="550px"></div> <div class="pdf-container" data-target="./4.pdf" data-height="550px"></div> <div class="pdf-container" data-target="./5.pdf" data-height="550px"></div> ]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;  来源于网络！！！用来总结复习！！！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="高等代数" scheme="http://sgnxotsmicf.com/categories/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    
+    
+    <category term="二次型" scheme="http://sgnxotsmicf.com/tags/%E4%BA%8C%E6%AC%A1%E5%9E%8B/"/>
+    
+    <category term="二次曲面" scheme="http://sgnxotsmicf.com/tags/%E4%BA%8C%E6%AC%A1%E6%9B%B2%E9%9D%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>可逆矩阵的一些性质(一)</title>
+    <link href="http://sgnxotsmicf.com/2021/12/30/%E5%8F%AF%E9%80%86%E7%9F%A9%E9%98%B5%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%A7%E8%B4%A8(%E4%B8%80)/"/>
+    <id>http://sgnxotsmicf.com/2021/12/30/%E5%8F%AF%E9%80%86%E7%9F%A9%E9%98%B5%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%A7%E8%B4%A8(%E4%B8%80)/</id>
+    <published>2021-12-30T05:17:44.000Z</published>
+    <updated>2021-12-30T05:27:17.238Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol><li><p>可逆矩阵，说明该方阵各向量线性无关，因为如果各向量线性相关，就不可能是可逆矩阵。</p><span id="more"></span></li><li><p>如果一个方阵乘以非零向量，结果是0向量，那么说明以该非零向量各元素为系数，和该方阵各行向量相乘后相加，能得到0向量。<br>而非零向量的元素不能全部为0<br>所以就说明存在一组不全为0的系数，使得系数和行向量相乘后相加，结果为0向量。<br>这就说明行向量线性相关（线性相关的定义）<br>所以就不是可逆矩阵。<br><em>因此可逆矩阵乘以一个非零向量的结果不可能是0向量</em></p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;可逆矩阵，说明该方阵各向量线性无关，因为如果各向量线性相关，就不可能是可逆矩阵。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="高等代数" scheme="http://sgnxotsmicf.com/categories/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    
+    
+    <category term="矩阵" scheme="http://sgnxotsmicf.com/tags/%E7%9F%A9%E9%98%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>降阶公式与矩阵秩的性质</title>
@@ -34,9 +102,9 @@
     <category term="高等代数" scheme="http://sgnxotsmicf.com/categories/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
     
-    <category term="公式" scheme="http://sgnxotsmicf.com/tags/%E5%85%AC%E5%BC%8F/"/>
-    
     <category term="矩阵" scheme="http://sgnxotsmicf.com/tags/%E7%9F%A9%E9%98%B5/"/>
+    
+    <category term="公式" scheme="http://sgnxotsmicf.com/tags/%E5%85%AC%E5%BC%8F/"/>
     
     <category term="秩" scheme="http://sgnxotsmicf.com/tags/%E7%A7%A9/"/>
     
