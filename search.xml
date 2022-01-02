@@ -13,6 +13,9 @@
 <li><p>看板娘</p>
 <p>来源于：<a href="https://afuya.blog.csdn.net/article/details/107341035">这里</a></p>
 </li>
+<li><p>pdf</p>
+<p>来源于：<a href="https://ugirc.blog.csdn.net/article/details/104574959">这里</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -336,6 +339,21 @@
       <tags>
         <tag>最优化算法</tag>
         <tag>matlab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java学习记录</title>
+    <url>/2022/01/02/Java%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 用于记录Java日常学习，便于复习</p>
+<span id="more"></span>
+<blockquote>
+<ol>
+<li>Stream流：<a href="https://www.bilibili.com/video/BV1Cv411372m?p=141&amp;spm_id_from=pageDriver">这里</a></li>
+</ol>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>Java</tag>
       </tags>
   </entry>
 </search>
