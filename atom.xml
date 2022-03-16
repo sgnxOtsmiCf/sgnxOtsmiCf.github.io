@@ -6,7 +6,7 @@
   <link href="http://sgnxotsmicf.com/atom.xml" rel="self"/>
   
   <link href="http://sgnxotsmicf.com/"/>
-  <updated>2022-01-02T12:20:23.486Z</updated>
+  <updated>2022-03-15T13:54:39.557Z</updated>
   <id>http://sgnxotsmicf.com/</id>
   
   <author>
@@ -17,18 +17,130 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Java学习记录</title>
-    <link href="http://sgnxotsmicf.com/2022/01/02/Java%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    <id>http://sgnxotsmicf.com/2022/01/02/Java%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</id>
-    <published>2022-01-02T12:17:14.000Z</published>
-    <updated>2022-01-02T12:20:23.486Z</updated>
+    <title>需要证明的一些东西-加深记忆</title>
+    <link href="http://sgnxotsmicf.com/2022/03/15/%E9%9C%80%E8%A6%81%E8%AF%81%E6%98%8E%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%9C%E8%A5%BF-%E5%8A%A0%E6%B7%B1%E8%AE%B0%E5%BF%86/"/>
+    <id>http://sgnxotsmicf.com/2022/03/15/%E9%9C%80%E8%A6%81%E8%AF%81%E6%98%8E%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%9C%E8%A5%BF-%E5%8A%A0%E6%B7%B1%E8%AE%B0%E5%BF%86/</id>
+    <published>2022-03-15T13:51:37.000Z</published>
+    <updated>2022-03-15T13:54:39.557Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 用于记录Java日常学习，便于复习</p><span id="more"></span><blockquote><ol><li>Stream流：<a href="https://www.bilibili.com/video/BV1Cv411372m?p=141&amp;spm_id_from=pageDriver">这里</a></li></ol></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="三月"><a href="#三月" class="headerlink" title="三月"></a>三月</h4><blockquote><p>3月15</p></blockquote><ol><li>证明常数项级数收敛的必要条件是其通项极限为0</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="数学证明" scheme="http://sgnxotsmicf.com/categories/%E6%95%B0%E5%AD%A6%E8%AF%81%E6%98%8E/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>英语单词笔记-必记</title>
+    <link href="http://sgnxotsmicf.com/2022/03/15/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/"/>
+    <id>http://sgnxotsmicf.com/2022/03/15/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/</id>
+    <published>2022-03-15T12:06:06.000Z</published>
+    <updated>2022-03-16T03:26:38.764Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="三月份英语单词笔记-必记"><a href="#三月份英语单词笔记-必记" class="headerlink" title="三月份英语单词笔记-必记"></a>三月份英语单词笔记-必记</h4><blockquote><p>3月15</p></blockquote><ol><li>march 行军,进行……</li><li>March 三月</li><li>neat 整洁的,干净的,优美的,精致的</li><li>queer 奇怪的,古怪的</li><li>terminal 电脑终端</li><li>thigh 大腿 股</li></ol><blockquote><p>3月16</p></blockquote><ol><li>haven 天堂,天空,上帝</li><li>match 比赛、竞赛；匹配,相配</li><li>May 五月</li><li>may 可能,也许</li><li>optical 眼的,视力的,光学的</li><li>civilian 平民,百姓</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="英语单词" scheme="http://sgnxotsmicf.com/tags/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不等式总结</title>
+    <link href="http://sgnxotsmicf.com/2022/01/13/%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%80%BB%E7%BB%93/"/>
+    <id>http://sgnxotsmicf.com/2022/01/13/%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%80%BB%E7%BB%93/</id>
+    <published>2022-01-13T12:06:13.000Z</published>
+    <updated>2022-01-13T12:16:22.302Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><span id="more"></span><img src="/2022/01/13/%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%80%BB%E7%BB%93/image-20220113201242132.png" class="" title="image-20220113201242132"><p>…</p><p>基本不等式：</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="公式" scheme="http://sgnxotsmicf.com/categories/%E5%85%AC%E5%BC%8F/"/>
+    
+    
+    <category term="不等式" scheme="http://sgnxotsmicf.com/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>隐函数可微性定理</title>
+    <link href="http://sgnxotsmicf.com/2022/01/13/%E9%9A%90%E5%87%BD%E6%95%B0%E5%8F%AF%E5%BE%AE%E6%80%A7%E5%AE%9A%E7%90%86/"/>
+    <id>http://sgnxotsmicf.com/2022/01/13/%E9%9A%90%E5%87%BD%E6%95%B0%E5%8F%AF%E5%BE%AE%E6%80%A7%E5%AE%9A%E7%90%86/</id>
+    <published>2022-01-13T11:25:02.000Z</published>
+    <updated>2022-01-13T11:59:02.962Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>   公式：${\Large{\dot f(x) = - { \frac {F_x(x,y)}{F_y(x,y)}}}}$</p><span id="more"></span><h3 id="隐函数可微性定理"><a href="#隐函数可微性定理" class="headerlink" title="隐函数可微性定理"></a>隐函数可微性定理</h3><p>设$F(x,y)$满足隐函数存在唯一性定理(待定)中的条件 i—&gt;iv，又设在D上还存在连续性的偏导数$F_x(x,y)$,则由方程$F(x,y)=0$所确定的隐函数$y=f(x)$在其定义域上$(x_0-{\alpha},x_0+{\alpha})$上有连续导函数，且：</p><p>${\Large{\dot f(x) = - { \frac {F_x(x,y)}{F_y(x,y)}}}}$</p><h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p>待定…….</p><h3 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h3><p>一般用来做应用求极值，如面积最值！</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;   公式：${\Large{\dot f(x) = - { \frac {F_x(x,y)}{F_y(x,y)}}}}$&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="函数" scheme="http://sgnxotsmicf.com/categories/%E5%87%BD%E6%95%B0/"/>
+    
+    
+    <category term="隐函数-01" scheme="http://sgnxotsmicf.com/tags/%E9%9A%90%E5%87%BD%E6%95%B0-01/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>递归思想</title>
+    <link href="http://sgnxotsmicf.com/2022/01/11/%E9%80%92%E5%BD%92%E6%80%9D%E6%83%B3/"/>
+    <id>http://sgnxotsmicf.com/2022/01/11/%E9%80%92%E5%BD%92%E6%80%9D%E6%83%B3/</id>
+    <published>2022-01-11T09:01:42.000Z</published>
+    <updated>2022-01-13T12:00:42.654Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 递归已经不陌生了，最重要的是如何求解递归问题？</p><span id="more"></span><blockquote><p>递归公式</p></blockquote><p>首先要有递归公式，通过总结规律来找出n与n+1的转换公式（递归公式），只有拿到公式才能正确快速的找到递归方法，不然就是空中楼阁，对着一个递归问题一个劲的死想，一个劲的调试代码…..然而并没有什么暖用，就算解决出来了也已经晚了，时间就是效率！</p><blockquote><p>递归终点与递归方向</p></blockquote><p>递归终点显然是必须要有的，没有递归终点，不是成死循环了吗？同时递归终点的设立也为递归指明了方向，然最后一步递下去得终点是它就行了，然后通过递归终点一步步把数据归回来！</p><blockquote><p>一道例题</p></blockquote><img src="/2022/01/11/%E9%80%92%E5%BD%92%E6%80%9D%E6%83%B3/image-20220111170951290.png" class="" title="image-20220111170951290"><blockquote><p>最后，这只是有规律的递归，对于没有规律的递归，还应该具体问题具体分析，但不管是哪一种，递归终点与递归方向都是必不可少的！！</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt; 递归已经不陌生了，最重要的是如何求解递归问题？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="数学思想" scheme="http://sgnxotsmicf.com/categories/%E6%95%B0%E5%AD%A6%E6%80%9D%E6%83%B3/"/>
+    
+    
+    <category term="递归" scheme="http://sgnxotsmicf.com/tags/%E9%80%92%E5%BD%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java学习日记</title>
+    <link href="http://sgnxotsmicf.com/2022/01/02/Java%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/"/>
+    <id>http://sgnxotsmicf.com/2022/01/02/Java%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</id>
+    <published>2022-01-02T12:17:14.000Z</published>
+    <updated>2022-01-03T13:03:06.538Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 用于记录Java日常学习，便于复习</p><span id="more"></span><blockquote><ol><li><p>Stream流：<a href="https://www.bilibili.com/video/BV1Cv411372m?p=141&amp;spm_id_from=pageDriver">这里</a></p></li><li><p>继承和实现可以强转且编译时不报错，但运行时可能会报错！</p></li><li><p>如何自己处理异常：<a href="https://www.bilibili.com/video/BV1Cv411372m?p=143&amp;spm_id_from=pageDriver">编译/运行时异常</a>  </p></li><li><p>常用API :Object Object <a href="https://www.bilibili.com/video/BV1Cv411372m?p=117">这里</a></p></li><li><p>常用API :StringBuilder <a href="https://www.bilibili.com/video/BV1Cv411372m?p=118">这里</a></p></li><li><p>常用API :Math System BigDecimal <a href="https://www.bilibili.com/video/BV1Cv411372m?p=119">这里</a></p></li><li><p>常用快捷键：<a href="https://www.cnblogs.com/zhangpengshou/p/5366413.html">这里</a></p></li></ol></blockquote>]]></content>
     
     
     <summary type="html">&lt;p&gt; 用于记录Java日常学习，便于复习&lt;/p&gt;</summary>
     
     
+    
+    <category term="日记" scheme="http://sgnxotsmicf.com/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="Java" scheme="http://sgnxotsmicf.com/tags/Java/"/>
@@ -224,9 +336,9 @@
     <link href="http://sgnxotsmicf.com/2021/12/25/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%A7%84%E5%88%99/"/>
     <id>http://sgnxotsmicf.com/2021/12/25/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%A7%84%E5%88%99/</id>
     <published>2021-12-25T12:56:43.310Z</published>
-    <updated>2021-12-27T13:42:03.779Z</updated>
+    <updated>2022-01-13T11:45:48.749Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><blockquote><p><a href="https://www.jianshu.com/p/191d1e21f7ed">这里</a></p></blockquote><h3 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h3><blockquote><p><a href="https://zhuanlan.zhihu.com/p/261750408?utm_source=wechat_session">这里1</a></p><p><a href="https://blog.csdn.net/c20182030/article/details/84840373?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&amp;utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1#LaTexKaTex_26">这里2</a></p></blockquote><span id="more"></span><blockquote><p><a href="https://www.cnblogs.com/VincentValentine/p/15419593.html">这里3</a></p><p><a href="https://www.jianshu.com/p/e74eb43960a1">这里4</a></p><p><a href="https://www.jianshu.com/p/d63887d0c706">箭头集合</a></p></blockquote><p>…………..</p> <img src="/2021/12/25/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%A7%84%E5%88%99/1Q7L5JUV5Y7_%60%7B9%7DE_K3N4V.jpg" class="" title="1Q7L5JUV5Y7_&#96;{9}E_K3N4V"><hr>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><blockquote><p><a href="https://www.jianshu.com/p/191d1e21f7ed">这里</a></p></blockquote><h3 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h3><blockquote><p><a href="https://zhuanlan.zhihu.com/p/261750408?utm_source=wechat_session">这里1</a></p><p><a href="https://blog.csdn.net/c20182030/article/details/84840373?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&amp;utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1#LaTexKaTex_26">这里2</a></p></blockquote><span id="more"></span><blockquote><p><a href="https://www.cnblogs.com/VincentValentine/p/15419593.html">这里3</a></p><p><a href="https://www.jianshu.com/p/e74eb43960a1">这里4</a></p><p><a href="https://www.jianshu.com/p/d63887d0c706">箭头集合</a></p></blockquote><p>$a^{\prime}$</p><p>$a’$</p><p>…………..</p> <img src="/2021/12/25/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%A7%84%E5%88%99/1Q7L5JUV5Y7_%60%7B9%7DE_K3N4V.jpg" class="" title="1Q7L5JUV5Y7_&#96;{9}E_K3N4V"><hr>]]></content>
     
     
     <summary type="html">&lt;h3 id=&quot;语法&quot;&gt;&lt;a href=&quot;#语法&quot; class=&quot;headerlink&quot; title=&quot;语法&quot;&gt;&lt;/a&gt;语法&lt;/h3&gt;&lt;blockquote&gt;
@@ -351,27 +463,6 @@
     
     
     <category term="反证法" scheme="http://sgnxotsmicf.com/tags/%E5%8F%8D%E8%AF%81%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>极限1</title>
-    <link href="http://sgnxotsmicf.com/2021/09/13/%E6%9E%81%E9%99%901/"/>
-    <id>http://sgnxotsmicf.com/2021/09/13/%E6%9E%81%E9%99%901/</id>
-    <published>2021-09-13T11:12:44.000Z</published>
-    <updated>2021-12-25T15:33:21.653Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 这道题有点难受，最后一步诱导性极强，我(本人)每一次第一反应都tm是0！<br><span id="more"></span></p><script type="math/tex; mode=display">\text { 求 } \lim _{x \rightarrow 0}\left(\frac{(1+x)^{\frac{1} {x} } } {(1+\sin x)^{\frac{1} {\sin x} } }\right)^{\frac{1} {x^{3} } }</script><p>这道题我认为诱导性很强（对我），题本身不难，但每次快写出来的时候就会被各种各样的问题卡住了。要不是cosx没有及时化简掉；要不就是在最后一步，最简单的等价无穷小代换我竟然忘掉了，不是忘掉了某个公式，而是压根就没有想起来，神奇！</p><h3 id="求解过程"><a href="#求解过程" class="headerlink" title="求解过程"></a>求解过程</h3><p><img src="https://cdn.mathpix.com/snip/images/Nu9orVKInkJHQp1_y4EaBqBE5EW9-7-lT3ISsMEaSTE.original.fullsize.png" alt=""></p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在倒数第二步，也就是”三项分开解”上一行，每次算到这里我都会”失忆“，什么泰勒公式呀、等价无穷小替换呀、洛必达呀都选择性失忆了，只剩下个鸡蛋”0“了!</p><p>~好吧，从根本上（解题方式上）我的感性思维占的更多一点吧，导致每每造成这种不是失误的失误。我想，每一步都应该规范在数学知识的框架上！</p><p><em>不是吗？</em></p><hr><p>请看这里：<a href="https://www.bilibili.com/video/BV1Qs411J7QQ?p=30&amp;spm_id_from=pageDriver">有个好东西！</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt; 这道题有点难受，最后一步诱导性极强，我(本人)每一次第一反应都tm是0！&lt;br&gt;</summary>
-    
-    
-    
-    <category term="极限" scheme="http://sgnxotsmicf.com/categories/%E6%9E%81%E9%99%90/"/>
-    
-    
-    <category term="极限" scheme="http://sgnxotsmicf.com/tags/%E6%9E%81%E9%99%90/"/>
     
   </entry>
   

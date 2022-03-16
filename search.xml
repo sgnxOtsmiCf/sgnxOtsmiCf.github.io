@@ -54,6 +54,8 @@
 <p><a href="https://www.jianshu.com/p/e74eb43960a1">这里4</a></p>
 <p><a href="https://www.jianshu.com/p/d63887d0c706">箭头集合</a></p>
 </blockquote>
+<p>$a^{\prime}$</p>
+<p>$a’$</p>
 <p>…………..</p>
  <img src="/2021/12/25/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%A7%84%E5%88%99/1Q7L5JUV5Y7_%60%7B9%7DE_K3N4V.jpg" class="" title="1Q7L5JUV5Y7_&#96;{9}E_K3N4V">
 <hr>
@@ -342,18 +344,138 @@
       </tags>
   </entry>
   <entry>
-    <title>Java学习记录</title>
-    <url>/2022/01/02/Java%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
+    <title>Java学习日记</title>
+    <url>/2022/01/02/Java%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 用于记录Java日常学习，便于复习</p>
 <span id="more"></span>
 <blockquote>
 <ol>
-<li>Stream流：<a href="https://www.bilibili.com/video/BV1Cv411372m?p=141&amp;spm_id_from=pageDriver">这里</a></li>
+<li><p>Stream流：<a href="https://www.bilibili.com/video/BV1Cv411372m?p=141&amp;spm_id_from=pageDriver">这里</a></p>
+</li>
+<li><p>继承和实现可以强转且编译时不报错，但运行时可能会报错！</p>
+</li>
+<li><p>如何自己处理异常：<a href="https://www.bilibili.com/video/BV1Cv411372m?p=143&amp;spm_id_from=pageDriver">编译/运行时异常</a>  </p>
+</li>
+<li><p>常用API :Object Object <a href="https://www.bilibili.com/video/BV1Cv411372m?p=117">这里</a></p>
+</li>
+<li><p>常用API :StringBuilder <a href="https://www.bilibili.com/video/BV1Cv411372m?p=118">这里</a></p>
+</li>
+<li><p>常用API :Math System BigDecimal <a href="https://www.bilibili.com/video/BV1Cv411372m?p=119">这里</a></p>
+</li>
+<li><p>常用快捷键：<a href="https://www.cnblogs.com/zhangpengshou/p/5366413.html">这里</a></p>
+</li>
 </ol>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
       <tags>
         <tag>Java</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>递归思想</title>
+    <url>/2022/01/11/%E9%80%92%E5%BD%92%E6%80%9D%E6%83%B3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 递归已经不陌生了，最重要的是如何求解递归问题？</p>
+<span id="more"></span>
+<blockquote>
+<p>递归公式</p>
+</blockquote>
+<p>首先要有递归公式，通过总结规律来找出n与n+1的转换公式（递归公式），只有拿到公式才能正确快速的找到递归方法，不然就是空中楼阁，对着一个递归问题一个劲的死想，一个劲的调试代码…..然而并没有什么暖用，就算解决出来了也已经晚了，时间就是效率！</p>
+<blockquote>
+<p>递归终点与递归方向</p>
+</blockquote>
+<p>递归终点显然是必须要有的，没有递归终点，不是成死循环了吗？同时递归终点的设立也为递归指明了方向，然最后一步递下去得终点是它就行了，然后通过递归终点一步步把数据归回来！</p>
+<blockquote>
+<p>一道例题</p>
+</blockquote>
+<img src="/2022/01/11/%E9%80%92%E5%BD%92%E6%80%9D%E6%83%B3/image-20220111170951290.png" class="" title="image-20220111170951290">
+<blockquote>
+<p>最后，这只是有规律的递归，对于没有规律的递归，还应该具体问题具体分析，但不管是哪一种，递归终点与递归方向都是必不可少的！！</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>数学思想</category>
+      </categories>
+      <tags>
+        <tag>递归</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>隐函数可微性定理</title>
+    <url>/2022/01/13/%E9%9A%90%E5%87%BD%E6%95%B0%E5%8F%AF%E5%BE%AE%E6%80%A7%E5%AE%9A%E7%90%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>   公式：${\Large{\dot f(x) = - { \frac {F_x(x,y)}{F_y(x,y)}}}}$</p>
+<span id="more"></span>
+<h3 id="隐函数可微性定理"><a href="#隐函数可微性定理" class="headerlink" title="隐函数可微性定理"></a>隐函数可微性定理</h3><p>设$F(x,y)$满足隐函数存在唯一性定理(待定)中的条件 i—&gt;iv，又设在D上还存在连续性的偏导数$F_x(x,y)$,则由方程$F(x,y)=0$所确定的隐函数$y=f(x)$在其定义域上$(x_0-{\alpha},x_0+{\alpha})$上有连续导函数，且：</p>
+<p>${\Large{\dot f(x) = - { \frac {F_x(x,y)}{F_y(x,y)}}}}$</p>
+<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p>待定…….</p>
+<h3 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h3><p>一般用来做应用求极值，如面积最值！</p>
+]]></content>
+      <categories>
+        <category>函数</category>
+      </categories>
+      <tags>
+        <tag>隐函数-01</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不等式总结</title>
+    <url>/2022/01/13/%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><span id="more"></span>
+<img src="/2022/01/13/%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%80%BB%E7%BB%93/image-20220113201242132.png" class="" title="image-20220113201242132">
+<p>…</p>
+<p>基本不等式：</p>
+]]></content>
+      <categories>
+        <category>公式</category>
+      </categories>
+      <tags>
+        <tag>不等式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语单词笔记-必记</title>
+    <url>/2022/03/15/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="三月份英语单词笔记-必记"><a href="#三月份英语单词笔记-必记" class="headerlink" title="三月份英语单词笔记-必记"></a>三月份英语单词笔记-必记</h4><blockquote>
+<p>3月15</p>
+</blockquote>
+<ol>
+<li>march 行军,进行……</li>
+<li>March 三月</li>
+<li>neat 整洁的,干净的,优美的,精致的</li>
+<li>queer 奇怪的,古怪的</li>
+<li>terminal 电脑终端</li>
+<li>thigh 大腿 股</li>
+</ol>
+<blockquote>
+<p>3月16</p>
+</blockquote>
+<ol>
+<li>haven 天堂,天空,上帝</li>
+<li>match 比赛、竞赛；匹配,相配</li>
+<li>May 五月</li>
+<li>may 可能,也许</li>
+<li>optical 眼的,视力的,光学的</li>
+<li>civilian 平民,百姓</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>英语单词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>需要证明的一些东西-加深记忆</title>
+    <url>/2022/03/15/%E9%9C%80%E8%A6%81%E8%AF%81%E6%98%8E%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%9C%E8%A5%BF-%E5%8A%A0%E6%B7%B1%E8%AE%B0%E5%BF%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="三月"><a href="#三月" class="headerlink" title="三月"></a>三月</h4><blockquote>
+<p>3月15</p>
+</blockquote>
+<ol>
+<li>证明常数项级数收敛的必要条件是其通项极限为0</li>
+</ol>
+]]></content>
+      <categories>
+        <category>数学证明</category>
+      </categories>
   </entry>
 </search>
