@@ -459,6 +459,14 @@
 <li>optical 眼的,视力的,光学的</li>
 <li>civilian 平民,百姓</li>
 </ol>
+<blockquote>
+<p>3月17</p>
+</blockquote>
+<ol>
+<li>smash 打破,打碎,摧毁</li>
+<li>beard 胡须</li>
+<li>reap 收割,收获,获得,得到</li>
+</ol>
 ]]></content>
       <tags>
         <tag>英语单词</tag>
@@ -477,5 +485,40 @@
       <categories>
         <category>数学证明</category>
       </categories>
+  </entry>
+  <entry>
+    <title>数学笔记-必记</title>
+    <url>/2022/03/16/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="三月"><a href="#三月" class="headerlink" title="三月"></a>三月</h4><blockquote>
+<p>3月16</p>
+</blockquote>
+<ol>
+<li>去掉、增加或改变级数的有限个项并不改变级数的敛散性</li>
+<li>在收敛级数的项中任意加括号，既不改变级数的敛散性，也不改变它的和</li>
+</ol>
+<blockquote>
+<p>3月17</p>
+</blockquote>
+<ol>
+<li><p>重点理解正项级数收敛的充要条件，及其衍生内容</p>
+</li>
+<li><p>注意：比式判别法和根式判别法的极限形式，对其所依赖的比值或常量为1时，无法适用，要具体境况具体判断</p>
+<p>如调和级数和p级数，对应的极限形式值均为1，但调和级数明显发散，而p级数明显是收敛的</p>
+</li>
+<li><p>比式判别法的极限形式可应用上下限来判断，而根式判别法的极限形式只能应用上限来判断</p>
+<p>但同时，均无法对1进行处理</p>
+<p>但是，二者的正常形式在其值为1时，均发散、</p>
+</li>
+<li><p>凡能由比式判别法鉴别收敛性的级数，它也能由根式判别法来判断，而且可以说，根式判别法较之比式判别法更有效</p>
+<p>比如某些级数用比式判别法会得到不一样的极限，显然发散，无从解决，但用根式判别法来考查其敛散性，往往时行之有效的</p>
+</li>
+<li><img src="/2022/03/16/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/R5V1I781L95$@OM%60J70W_L.jpg" class="" title="img">
+</li>
+</ol>
+<p>很不错的阶乘题，其实很简单，但要掌握方法</p>
+]]></content>
+      <tags>
+        <tag>数学笔记</tag>
+      </tags>
   </entry>
 </search>
