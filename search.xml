@@ -500,7 +500,8 @@
   <entry>
     <title>数学笔记-必记</title>
     <url>/2022/03/16/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="三月"><a href="#三月" class="headerlink" title="三月"></a>三月</h4><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script> <span id="more"></span>
+<h4 id="三月"><a href="#三月" class="headerlink" title="三月"></a>三月</h4><blockquote>
 <p>3月16</p>
 </blockquote>
 <ol>
@@ -527,6 +528,22 @@
 </li>
 </ol>
 <p>很不错的阶乘题，其实很简单，但要掌握方法</p>
+<blockquote>
+<p>3月18</p>
+</blockquote>
+<ol>
+<li><p>事实上，对于一般项级数的全部内容，我认识的都还非常浅薄，对于这一章，尤其是阿贝尔、狄利克雷判别法的复习，更是重中之重。</p>
+</li>
+<li><p>目前对绝对收敛级数的两个重要性质：</p>
+<ol>
+<li><p>级数的重排</p>
+</li>
+<li><p>级数的乘积</p>
+<p>还无法认识到他们具体有什么作用，其各自定理也都暂无法知道其应用场景</p>
+</li>
+</ol>
+</li>
+</ol>
 ]]></content>
       <tags>
         <tag>数学笔记</tag>
