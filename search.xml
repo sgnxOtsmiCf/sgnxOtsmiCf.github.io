@@ -478,6 +478,14 @@
 <li>junior 年少的,年幼的;下级,晚辈</li>
 <li>junk 垃圾 丢弃,废弃</li>
 </ol>
+<blockquote>
+<p>3月19</p>
+</blockquote>
+<ol>
+<li>graph 图表,曲线图</li>
+<li>inherit 继承</li>
+<li></li>
+</ol>
 ]]></content>
       <tags>
         <tag>英语单词</tag>
@@ -544,9 +552,31 @@
 </ol>
 </li>
 </ol>
+<blockquote>
+<p>3月19</p>
+</blockquote>
+<ol>
+<li>待解疑问：关于$p_{6}$第10题的一些疑问，尤其是那个数列，上来就给我整懵逼了，这省略号里面的都是什么东西？</li>
+<li>用柯西准则来判断级数敛散性时，若证明其发散，往往依靠对p找特例来推翻其收敛性，一般p取m的某个值</li>
+</ol>
 ]]></content>
       <tags>
         <tag>数学笔记</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>级数题-01</title>
+    <url>/2022/03/19/%E7%BA%A7%E6%95%B0%E9%A2%98-01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>  记录一些值得学习的级数题</p>
+<span id="more"></span>
+<h4 id="2022-三月"><a href="#2022-三月" class="headerlink" title="2022 三月"></a>2022 三月</h4><blockquote>
+<p>3月19</p>
+</blockquote>
+<p>$p_{5}:1(3)$</p>
+<p>这道题对原有的消除合并模式添加了新的内容，多了一个参数n，解题思路不变，但更要求有强大的思考解析力</p>
+]]></content>
+      <categories>
+        <category>级数</category>
+      </categories>
   </entry>
 </search>

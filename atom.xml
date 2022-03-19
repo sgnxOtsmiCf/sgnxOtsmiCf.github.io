@@ -6,7 +6,7 @@
   <link href="http://sgnxotsmicf.com/atom.xml" rel="self"/>
   
   <link href="http://sgnxotsmicf.com/"/>
-  <updated>2022-03-18T14:24:18.826Z</updated>
+  <updated>2022-03-19T04:31:34.983Z</updated>
   <id>http://sgnxotsmicf.com/</id>
   
   <author>
@@ -17,13 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>级数题-01</title>
+    <link href="http://sgnxotsmicf.com/2022/03/19/%E7%BA%A7%E6%95%B0%E9%A2%98-01/"/>
+    <id>http://sgnxotsmicf.com/2022/03/19/%E7%BA%A7%E6%95%B0%E9%A2%98-01/</id>
+    <published>2022-03-19T04:25:53.000Z</published>
+    <updated>2022-03-19T04:31:34.983Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>  记录一些值得学习的级数题</p><span id="more"></span><h4 id="2022-三月"><a href="#2022-三月" class="headerlink" title="2022 三月"></a>2022 三月</h4><blockquote><p>3月19</p></blockquote><p>$p_{5}:1(3)$</p><p>这道题对原有的消除合并模式添加了新的内容，多了一个参数n，解题思路不变，但更要求有强大的思考解析力</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;  记录一些值得学习的级数题&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="级数" scheme="http://sgnxotsmicf.com/categories/%E7%BA%A7%E6%95%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>数学笔记-必记</title>
     <link href="http://sgnxotsmicf.com/2022/03/16/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/"/>
     <id>http://sgnxotsmicf.com/2022/03/16/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/</id>
     <published>2022-03-16T12:12:38.000Z</published>
-    <updated>2022-03-18T14:24:18.826Z</updated>
+    <updated>2022-03-19T15:23:51.855Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script> <span id="more"></span><h4 id="三月"><a href="#三月" class="headerlink" title="三月"></a>三月</h4><blockquote><p>3月16</p></blockquote><ol><li>去掉、增加或改变级数的有限个项并不改变级数的敛散性</li><li>在收敛级数的项中任意加括号，既不改变级数的敛散性，也不改变它的和</li></ol><blockquote><p>3月17</p></blockquote><ol><li><p>重点理解正项级数收敛的充要条件，及其衍生内容</p></li><li><p>注意：比式判别法和根式判别法的极限形式，对其所依赖的比值或常量为1时，无法适用，要具体境况具体判断</p><p>如调和级数和p级数，对应的极限形式值均为1，但调和级数明显发散，而p级数明显是收敛的</p></li><li><p>比式判别法的极限形式可应用上下限来判断，而根式判别法的极限形式只能应用上限来判断</p><p>但同时，均无法对1进行处理</p><p>但是，二者的正常形式在其值为1时，均发散、</p></li><li><p>凡能由比式判别法鉴别收敛性的级数，它也能由根式判别法来判断，而且可以说，根式判别法较之比式判别法更有效</p><p>比如某些级数用比式判别法会得到不一样的极限，显然发散，无从解决，但用根式判别法来考查其敛散性，往往时行之有效的</p></li><li><img src="/2022/03/16/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/R5V1I781L95$@OM%60J70W_L.jpg" class="" title="img"></li></ol><p>很不错的阶乘题，其实很简单，但要掌握方法</p><blockquote><p>3月18</p></blockquote><ol><li><p>事实上，对于一般项级数的全部内容，我认识的都还非常浅薄，对于这一章，尤其是阿贝尔、狄利克雷判别法的复习，更是重中之重。</p></li><li><p>目前对绝对收敛级数的两个重要性质：</p><ol><li><p>级数的重排</p></li><li><p>级数的乘积</p><p>还无法认识到他们具体有什么作用，其各自定理也都暂无法知道其应用场景</p></li></ol></li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script> <span id="more"></span><h4 id="三月"><a href="#三月" class="headerlink" title="三月"></a>三月</h4><blockquote><p>3月16</p></blockquote><ol><li>去掉、增加或改变级数的有限个项并不改变级数的敛散性</li><li>在收敛级数的项中任意加括号，既不改变级数的敛散性，也不改变它的和</li></ol><blockquote><p>3月17</p></blockquote><ol><li><p>重点理解正项级数收敛的充要条件，及其衍生内容</p></li><li><p>注意：比式判别法和根式判别法的极限形式，对其所依赖的比值或常量为1时，无法适用，要具体境况具体判断</p><p>如调和级数和p级数，对应的极限形式值均为1，但调和级数明显发散，而p级数明显是收敛的</p></li><li><p>比式判别法的极限形式可应用上下限来判断，而根式判别法的极限形式只能应用上限来判断</p><p>但同时，均无法对1进行处理</p><p>但是，二者的正常形式在其值为1时，均发散、</p></li><li><p>凡能由比式判别法鉴别收敛性的级数，它也能由根式判别法来判断，而且可以说，根式判别法较之比式判别法更有效</p><p>比如某些级数用比式判别法会得到不一样的极限，显然发散，无从解决，但用根式判别法来考查其敛散性，往往时行之有效的</p></li><li><img src="/2022/03/16/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/R5V1I781L95$@OM%60J70W_L.jpg" class="" title="img"></li></ol><p>很不错的阶乘题，其实很简单，但要掌握方法</p><blockquote><p>3月18</p></blockquote><ol><li><p>事实上，对于一般项级数的全部内容，我认识的都还非常浅薄，对于这一章，尤其是阿贝尔、狄利克雷判别法的复习，更是重中之重。</p></li><li><p>目前对绝对收敛级数的两个重要性质：</p><ol><li><p>级数的重排</p></li><li><p>级数的乘积</p><p>还无法认识到他们具体有什么作用，其各自定理也都暂无法知道其应用场景</p></li></ol></li></ol><blockquote><p>3月19</p></blockquote><ol><li>待解疑问：关于$p_{6}$第10题的一些疑问，尤其是那个数列，上来就给我整懵逼了，这省略号里面的都是什么东西？</li><li>用柯西准则来判断级数敛散性时，若证明其发散，往往依靠对p找特例来推翻其收敛性，一般p取m的某个值</li></ol>]]></content>
     
     
       
@@ -65,9 +84,9 @@
     <link href="http://sgnxotsmicf.com/2022/03/15/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/"/>
     <id>http://sgnxotsmicf.com/2022/03/15/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E7%AC%94%E8%AE%B0-%E5%BF%85%E8%AE%B0/</id>
     <published>2022-03-15T12:06:06.000Z</published>
-    <updated>2022-03-18T10:04:11.380Z</updated>
+    <updated>2022-03-19T03:34:30.392Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="三月份英语单词笔记-必记"><a href="#三月份英语单词笔记-必记" class="headerlink" title="三月份英语单词笔记-必记"></a>三月份英语单词笔记-必记</h4><blockquote><p>3月15</p></blockquote><ol><li>march 行军,进行……</li><li>March 三月</li><li>neat 整洁的,干净的,优美的,精致的</li><li>queer 奇怪的,古怪的</li><li>terminal 电脑终端</li><li>thigh 大腿 股</li></ol><blockquote><p>3月16</p></blockquote><ol><li>haven 天堂,天空,上帝</li><li>match 比赛、竞赛；匹配,相配</li><li>May 五月</li><li>may 可能,也许</li><li>optical 眼的,视力的,光学的</li><li>civilian 平民,百姓</li></ol><blockquote><p>3月17</p></blockquote><ol><li>smash 打破,打碎,摧毁</li><li>beard 胡须</li><li>reap 收割,收获,获得,得到</li></ol><blockquote><p>3月18</p></blockquote><ol><li>league 同盟,联盟</li><li>nickname 绰号</li><li>pledge 保证,誓言,承诺,发誓</li><li>ticket 票,入场券,标签,罚款传票</li><li>junior 年少的,年幼的;下级,晚辈</li><li>junk 垃圾 丢弃,废弃</li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="三月份英语单词笔记-必记"><a href="#三月份英语单词笔记-必记" class="headerlink" title="三月份英语单词笔记-必记"></a>三月份英语单词笔记-必记</h4><blockquote><p>3月15</p></blockquote><ol><li>march 行军,进行……</li><li>March 三月</li><li>neat 整洁的,干净的,优美的,精致的</li><li>queer 奇怪的,古怪的</li><li>terminal 电脑终端</li><li>thigh 大腿 股</li></ol><blockquote><p>3月16</p></blockquote><ol><li>haven 天堂,天空,上帝</li><li>match 比赛、竞赛；匹配,相配</li><li>May 五月</li><li>may 可能,也许</li><li>optical 眼的,视力的,光学的</li><li>civilian 平民,百姓</li></ol><blockquote><p>3月17</p></blockquote><ol><li>smash 打破,打碎,摧毁</li><li>beard 胡须</li><li>reap 收割,收获,获得,得到</li></ol><blockquote><p>3月18</p></blockquote><ol><li>league 同盟,联盟</li><li>nickname 绰号</li><li>pledge 保证,誓言,承诺,发誓</li><li>ticket 票,入场券,标签,罚款传票</li><li>junior 年少的,年幼的;下级,晚辈</li><li>junk 垃圾 丢弃,废弃</li></ol><blockquote><p>3月19</p></blockquote><ol><li>graph 图表,曲线图</li><li>inherit 继承</li><li></li></ol>]]></content>
     
     
       
@@ -441,29 +460,6 @@
     
     
     <category term="兴趣" scheme="http://sgnxotsmicf.com/tags/%E5%85%B4%E8%B6%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>很简单的一道题</title>
-    <link href="http://sgnxotsmicf.com/2021/09/20/%E5%BE%88%E7%AE%80%E5%8D%95%E7%9A%84%E4%B8%80%E9%81%93%E9%A2%98/"/>
-    <id>http://sgnxotsmicf.com/2021/09/20/%E5%BE%88%E7%AE%80%E5%8D%95%E7%9A%84%E4%B8%80%E9%81%93%E9%A2%98/</id>
-    <published>2021-09-20T14:38:18.000Z</published>
-    <updated>2021-12-30T04:55:41.230Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>预定31号题！非数竞赛一道题，第一次做没想到（+1）</p><span id="more"></span><h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>设区间$\big(0,+\infty)$上的函数$u(x)$定义为：$u(x)=\int^{+\infty}_{0}{e^{-xt^{2}}{dt}}$，则$u(x)$的初等函数表达式为$?$</p><h3 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h3><p>这道题的核心就是二重积分，直接求导(利用原函数存在定理)和求积分显然是不可取的。</p><p>我们可以人为的再建立一个$u(x)=\int^{+\infty}_{0}{e^{-xm^2}{dm}}$,这种形式是可以存在的，下来就简单了…</p><h3 id="解题"><a href="#解题" class="headerlink" title="解题"></a>解题</h3><p>通过运算使得$u^2(x)=\iint_{s}{e^{-x\big(t^2+m^2)}dtdm}$ ,     其中$t\in \big(0,+\infty)$     $m\in \big(0,+\infty)$</p><p>因为被积函数中有平方和，因此利用极坐标解该二重积分：</p><p>$\begin{cases}t=rcos{\theta}\\m=rsin{\theta}\end{cases}$</p><p>$u^2(x)=\int^{\frac{\pi}{2}}_{0}d\theta\int^{+\infty}_{0}re^{-xr^2}dr=\frac{\pi}{2x}\int^{+\infty}_{0}{e^{-xr^2}}d\big(xr^2)={\frac{\pi}{2x}}{\int^{+\infty}_{0}e^{-p}dp}$ </p><p> $p=xr^{2}$</p><p>解得$u^{2}(x)=-\frac{\pi}{2x}$</p><p>则$u(x)=\sqrt{-\frac{\pi}{2x}}$</p><p>完毕！</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;预定31号题！非数竞赛一道题，第一次做没想到（+1）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="积分" scheme="http://sgnxotsmicf.com/categories/%E7%A7%AF%E5%88%86/"/>
-    
-    
-    <category term="积分" scheme="http://sgnxotsmicf.com/tags/%E7%A7%AF%E5%88%86/"/>
-    
-    <category term="二重积分" scheme="http://sgnxotsmicf.com/tags/%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86/"/>
     
   </entry>
   
